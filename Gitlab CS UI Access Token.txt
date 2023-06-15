@@ -1,8 +1,0 @@
-glpat-5PjgcwxBeL2oiqyYVsES
-
-Auth: glpat-L5odcstmeEB7gm9y3HjW
-
-Real auth
-Auth: 04eedbf64a0db48801e272324d9298a85cd7ca74
-
-Tutorial 7: e1e1bef237ec6d630bbbe44bfb452c9cd23c1dcc
