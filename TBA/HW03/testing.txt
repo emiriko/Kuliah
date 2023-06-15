@@ -1,0 +1,56 @@
+i = 0 
+	j = 0, m = 0, k = 0 
+      j = 2, m = 0, k = 1  = bbc
+	j = 0, m = 2, k = 1 
+      j = 1, m = 1, k = 1
+	......
+i = 1
+	j = 1, m = 0, k = 1
+	j = 0, m = 1, k = 1
+	j = 3, m = 0, k = 2
+	j = 0, m = 3, k = 2
+	j = 2, m = 1, k = 2
+	j = 1, m = 2, k = 2
+
+i = 2
+	j = 0, m = 0, k = 1
+	j = 2, m = 0, k = 2
+	j = 0, m = 2, k = 2
+	j = 1, m = 1, k = 2
+
+i = 3
+	j = 1, m = 0, k = 2
+	j = 0, m = 1, k = 2	
+
+
+S -> aaSc | bbSc | cSdd | aAbCc | aBcCd | bDcCd | aEbFcCd
+A -> e | aAb | Ab
+B -> e | aBc | Bc
+C -> e | Cc
+D -> e | bDc | Dc
+E -> e | Eb
+F -> e | Fc
+
+
+// d sebagai k
+S -> aaSd | bbSd | ccSd | aAbCd | aBcCd | bDcCd | aEbFcCd
+A -> e | aAb | Ab
+B -> e | aBc | Bc
+C -> e | Cd
+D -> e | bDc | Dc
+E -> e | Eb
+F -> e | Fc
+
+
+
+// from chris
+
+
+S -> e | aaAcD | abBcD | bbCc | aAcdD | bCcdD | cDdd | aaEc
+A -> e | aaAc | B | C
+B -> e | abBc | C
+C -> e | bbCc
+D -> e | cDdd
+E -> e | aaEc
+
+

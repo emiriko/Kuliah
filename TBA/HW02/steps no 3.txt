@@ -1,0 +1,12 @@
+step1: bb*c
+step2: a U bb*c
+step3: ( a U bb*c )* 
+step4: ( a U bb*c )*b
+step5: ( a U bb*c )*bb*
+step6: ( a U bb*c )*bb*a
+step7: (bb*a)*
+step8: ( a U bb*c )*bb*a(bb*a)*
+step9: ( a U bb*c )*bb*a(bb*a)*c
+step10: ( a U bb*c )*bb*a(bb*a)*c(bb*a(bb*a)*c)*
+step11: ( a U bb*c )*bb*a(bb*a)*c(bb*a(bb*a)*c)*a
+step12: ( a U bb*c )*bb*a(bb*a)*c(bb*a(bb*a)*c)*a(a U b U c)

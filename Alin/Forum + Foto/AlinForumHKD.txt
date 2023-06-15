@@ -1,0 +1,24 @@
+Selamat pagi Pak Ridhwan, kakak asisten dan teman-teman saya di kelas D. Perkenalkan saya Alvaro Austin dengan NPM 2106752180, ingin mecoba untuk menjawab pertanyaan yang diajukan diatas. Mohon maaf apabila ada kesalahan dalam penulisan jawaban.
+
+1. SPL Ax = b konsisten, apa kesimpulanmu mengenai b?
+
+Berdasarkan teorema konsistensi yang kita pelajari di bab ruang vektor umum, teorema konsistensi memiliki syarat sebagai berikut: 
+
+Apabila SPL Ax = b konsisten maka b berada pada Coll(A) dan Rank(A) dengan Rank(A | b) -> augmented sama.
+
+Artinya b berada pada Coll(A), memiliki artian bahwa b dapat dibentuk dari kombinasi-kombinasi linear kolom-kolom dari A. Maka apabila ax=b konsisten maka pastinya b merupakan anggota dari kolom A
+
+2.  Apa hubungan antara Coll(A) dan Null(AT)?
+
+Null(A^T) adalah solusi semua SPL A^(T) x = 0, Coll(A) adalah himpunan dari seluruh kombinasi linear di kolum A. Maka ortogonal komplemen dari Coll(A) akan menhasilkan hasil yang sama seperti Null(AT)
+
+
+
+3. Jika A dan B matriks persegi dan mempunyai inverse: (AB)-1 = B-1 A-1 dan (AB)T = BTAT
+
+
+
+4. Jika A adalah matriks m x n, dan x sembarang vektor di Rn. Apakah selalu Ax elemen Coll(A)?
+
+
+

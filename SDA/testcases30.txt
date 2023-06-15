@@ -1,0 +1,90 @@
+Tara
+5 8
+Tara
+Tara
+8 6
+Tara
+Kenneth
+5 2
+Kenneth
+Tara
+7 6
+Tara
+Kenneth
+4 9
+Kenneth
+Tara
+9 9
+Kenneth
+Tara
+10 2
+Kenneth
+Tara
+10 10
+Tara
+Tara
+4 5
+Kenneth
+Tara
+7 6
+Tara
+Kenneth
+10 10
+Kenneth
+Tara
+6 4
+Tara
+Kenneth
+7 10
+Kenneth
+Kenneth
+10 3
+Kenneth
+Tara
+4 3
+Tara
+Kenneth
+3 5
+Kenneth
+Kenneth
+8 6
+Kenneth
+Kenneth
+4 4
+Kenneth
+Kenneth
+8 6
+Kenneth
+Kenneth
+3 3
+Tara
+Tara
+5 10
+Kenneth
+Tara
+7 10
+Tara
+Tara
+2 2
+Tara
+Kenneth
+2 2
+Kenneth
+Kenneth
+6 5
+Kenneth
+Kenneth
+3 10
+Kenneth
+Kenneth
+7 2
+Tara
+Kenneth
+10 7
+Kenneth
+Kenneth
+7 8
+Tara
+Tara
+6 4
+Tara

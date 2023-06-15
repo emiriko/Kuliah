@@ -1,0 +1,21 @@
+CREATE OR REPLACE FUNCTION gaji_total(idemployee VARCHAR(9))
+RETURNS INTEGER AS 
+$$
+	DECLARE 
+		gaji_total INTEGER;
+		gaji_awal INTEGER; 
+		total_hours INTEGER;
+	BEGIN 
+		SELECT sum(hours) into total_hours
+		FROM WORKS_ON
+		WHERE Essn = idemployee;
+
+		SELECT salary into gaji_awal
+		from employee
+		where ssn = idemployee;
+		
+		gaji_total = gaji_awal + 100*total_hours;
+		return gaji_total;
+	END;
+$$
+LANGUAGE plpgsql;

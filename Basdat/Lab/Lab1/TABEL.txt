@@ -1,0 +1,83 @@
+CREATE TABLE SIWANAP.DOKTER(
+	id_dokter VARCHAR(10) NOT NULL,
+	nama VARCHAR(100) NOT NULL,
+	no_telp VARCHAR(14) NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	spesialisasi TEXT NOT NULL,
+	PRIMARY KEY (id_dokter)
+);
+
+CREATE TABLE SIWANAP.PASIEN(
+	id_pasien VARCHAR(10) NOT NULL,
+	nama VARCHAR(100) NOT NULL,
+	alamat TEXT NOT NULL,
+	no_telp VARCHAR(14) NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	tgl_lahir DATE NOT NULL,
+	jenis_kelamin CHAR(1) NOT NULL,
+	PRIMARY KEY (id_pasien)
+);
+
+CREATE TABLE SIWANAP.PERAWAT(
+	id_perawat VARCHAR(10) NOT NULL,
+	nama VARCHAR(100) NOT NULL,
+	no_telp VARCHAR(14) NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	jenis_kelamin CHAR(1) NOT NULL,
+	PRIMARY KEY (id_perawat)
+);
+
+CREATE TABLE SIWANAP.KAMAR(
+	id_kamar VARCHAR(10) NOT NULL,
+	nama VARCHAR(30) NOT NULL,
+	jenis VARCHAR(10) NOT NULL,
+	kapasitas SMALLINT NOT NULL,
+	harga INTEGER NOT NULL,
+	PRIMARY KEY (id_kamar)
+);
+
+CREATE TABLE SIWANAP.OBAT(
+	id_obat VARCHAR(10) NOT NULL,
+	nama TEXT NOT NULL,
+	PRIMARY KEY (id_obat)
+);
+
+CREATE TABLE SIWANAP.RAWAT_INAP(
+	id_rawat_inap VARCHAR(10) NOT NULL,
+	id_kamar VARCHAR(10) NOT NULL, 
+	id_pasien VARCHAR(10) NOT NULL,
+	FOREIGN KEY (id_kamar) REFERENCES KAMAR(id_kamar),
+	FOREIGN KEY (id_pasien) REFERENCES PASIEN(id_pasien),
+	tgl_masuk DATE NOT NULL,
+	tgl_keluar DATE,
+	PRIMARY KEY (id_rawat_inap)
+);
+
+CREATE TABLE SIWANAP.SHIFT_PERAWAT(
+	id_shift_perawat VARCHAR(10) NOT NULL,
+	id_perawat VARCHAR(10) NOT NULL,
+	id_rawat_inap VARCHAR(10) NOT NULL,
+	FOREIGN KEY (id_perawat) REFERENCES PERAWAT(id_perawat),
+	FOREIGN KEY (id_rawat_inap) REFERENCES RAWAT_INAP(id_rawat_inap),
+	waktu_mulai TIMESTAMP NOT NULL,
+	tgl_keluar TIMESTAMP,
+	PRIMARY KEY (id_shift_perawat)
+);
+
+CREATE TABLE SIWANAP.DOKTER_RAWAT_INAP(
+	id_dokter VARCHAR(10),
+	id_rawat_inap VARCHAR(10),
+	FOREIGN KEY (id_dokter) REFERENCES DOKTER(id_dokter),
+	FOREIGN KEY (id_rawat_inap) REFERENCES RAWAT_INAP(id_rawat_inap),
+	PRIMARY KEY (id_dokter, id_rawat_inap)
+);
+
+CREATE TABLE SIWANAP.PEMBERIAN_OBAT(
+	id_pemberian_obat VARCHAR(10) NOT NULL,
+	id_shift_perawat VARCHAR(10) NOT NULL,
+	id_obat VARCHAR(10) NOT NULL,
+	FOREIGN KEY (id_shift_perawat) REFERENCES SHIFT_PERAWAT(id_shift_perawat),
+	FOREIGN KEY (id_obat) REFERENCES OBAT(id_obat),
+	dosis VARCHAR(10) NOT NULL,
+	PRIMARY KEY (id_pemberian_obat)
+);

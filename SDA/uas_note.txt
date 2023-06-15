@@ -1,0 +1,6 @@
+bfs = coba 1-1 ABIS ITU di ENQUUE
+DFS = COBA SAMPAI AKHIR SETIAP NODE (BERURUTAN GITU), JADI KALO MISALNYA NODE A ada ke B dan E, selesain semua B kalau sub node dari b gak 
+ada jalan lagi, lanjut E
+topological sort: cek indegree dimana indegree = 0, apabila udah hapus setiap edge yang ada
+
+djikstra coba setiap node aja biar aman

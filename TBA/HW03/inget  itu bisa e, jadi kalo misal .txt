@@ -1,0 +1,2 @@
+inget * itu bisa e, jadi kalo misal (a U b U c)* bc*c
+itu bakal ada jalan langsung ke b, in case starnya e
