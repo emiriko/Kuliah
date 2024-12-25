@@ -1,0 +1,2958 @@
+@prefix :      <http://kabinet-ina.id/data#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix v:     <http://kabinet-ina.id/vocab#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:WakilMenteriPerhubungan
+        rdfs:label          "Wakil Menteri Perhubungan" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2009-11-11"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :BambangSusantono
+                            ] .
+
+:BambangHendarsoDanuri
+        rdfs:label  "Bambang Hendarso Danuri" .
+
+:Soegiharto  rdfs:label  "Soegiharto" .
+
+:RoySuryo  rdfs:label  "Roy Suryo" .
+
+:MarwanJafar  rdfs:label  "Marwan Ja'far" .
+
+:SusiPudjiastuti  rdfs:label  "Susi Pudjiastuti" .
+
+:FadelMuhammad  rdfs:label  "Fadel Muhammad" .
+
+:YaqutCholilQoumas  rdfs:label  "Yaqut Cholil Qoumas" .
+
+:JuliariBatubara  rdfs:label  "Juliari Batubara" .
+
+:WakilPresiden  rdfs:label  "Wakil Presiden" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2004-10-20"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MuhammadJusufKalla
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-20"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :Boediono
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2014-10-20"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :MuhammadJusufKalla
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-20"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :MarufAmin ;
+                              v:status         "Petahana"
+                            ] .
+
+:DipoAlam  rdfs:label  "Dipo Alam" .
+
+:JuwonoSudarsono  rdfs:label  "Juwono Sudarsono" .
+
+:DinoPattiDjalal  rdfs:label  "Dino Patti Djalal" .
+
+:YasonnaLaoly  rdfs:label  "Yasonna Laoly" .
+
+:AriefPrasetyoAdi  rdfs:label  "Arief Prasetyo Adi" .
+
+:AlueDohong  rdfs:label  "Alue Dohong" .
+
+:SalehHusin  rdfs:label  "Saleh Husin" .
+
+:JeroWacik  rdfs:label  "Jero Wacik" .
+
+:MenteriPariwisatadanEkonomiKreatif
+        rdfs:label          "Menteri Pariwisata dan Ekonomi Kreatif" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MariElkaPangestu
+                            ] .
+
+:EdhyPrabowo  rdfs:label  "Edhy Prabowo" .
+
+:WakilMenteriPertahanan
+        rdfs:label          "Wakil Menteri Pertahanan" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2010-01-06"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SjafrieSjamsoeddin
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2020-12-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :MuhammadHerindra ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-25"^^xsd:date ;
+                              v:jabatan_selesai  "2020-12-23"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :SaktiWahyuTrenggono
+                            ] .
+
+:M.Maruf  rdfs:label  "M. Ma'ruf" .
+
+:WakilMenteriPerdagangan
+        rdfs:label          "Wakil Menteri Perdagangan" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :BayuKrisnamurthi
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2009-11-11"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MahendraSiregar
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Golkar ;
+                              v:jabatan_mulai  "2019-10-25"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :JerrySambuaga ;
+                              v:status         "Petahana"
+                            ] .
+
+:Wiranto  rdfs:label  "Wiranto" .
+
+:HendarmanSupandji  rdfs:label  "Hendarman Supandji" .
+
+:MenteriKoordinatorBidangKesejahteraanRakyat
+        rdfs:label          "Menteri Koordinator Bidang Kesejahteraan Rakyat" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2005-12-07"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :AburizalBakrie
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2005-12-07"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :AlwiShihab
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AgungLaksono
+                            ] .
+
+:DjokoSantoso  rdfs:label  "Djoko Santoso" .
+
+:MenteriPertahanan  rdfs:label  "Menteri Pertahanan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :JuwonoSudarsono
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :PurnomoYusgiantoro
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :RyamizardRyacudu
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Gerindra ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :PrabowoSubianto ;
+                              v:status         "Petahana"
+                            ] .
+
+:AniesBaswedan  rdfs:label  "Anies Baswedan" .
+
+:YudiLatief  rdfs:label  "Yudi Latief" .
+
+:MenteriKoordinatorBidangPerekonomian
+        rdfs:label          "Menteri Koordinator Bidang Perekonomian" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2008-06-13"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SriMulyaniIndrawati ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2005-12-07"^^xsd:date ;
+                              v:jabatan_selesai  "2008-05-22"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :Boediono
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2005-12-07"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :AburizalBakrie
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-05-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :ChairulTanjung
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PAN ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-05-13"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :HattaRajasa
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2015-08-12"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :DarminNasution
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2015-08-12"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :SofyanDjalil
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Golkar ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :AirlanggaHartarto ;
+                              v:status         "Petahana"
+                            ] .
+
+:ArmidaAlisjahbana  rdfs:label  "Armida Alisjahbana" .
+
+:MenteriPerumahanRakyat
+        rdfs:label          "Menteri Perumahan Rakyat" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PPP ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :DjanFaridz
+                            ] .
+
+:TjahjoKumolo  rdfs:label  "Tjahjo Kumolo" .
+
+:MenteriPendidikanKebudayaanRisetdanTeknologi
+        rdfs:label          "Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi" ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2021-04-28"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :NadiemMakarim ;
+                              v:status         "Petahana"
+                            ] .
+
+:AriefYahya  rdfs:label  "Arief Yahya" .
+
+:WakilMenteriLingkunganHidupdanKehutanan
+        rdfs:label          "Wakil Menteri Lingkungan Hidup dan Kehutanan" ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-25"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :AlueDohong ;
+                              v:status         "Petahana"
+                            ] .
+
+:FrankySibarani  rdfs:label  "Franky Sibarani" .
+
+:LukmanHakimSaifuddin
+        rdfs:label  "Lukman Hakim Saifuddin" .
+
+:WakilMenteriPekerjaanUmumdanPerumahanRakyat
+        rdfs:label          "Wakil Menteri Pekerjaan Umum dan Perumahan Rakyat" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PDI-P ;
+                              v:jabatan_mulai    "2019-10-25"^^xsd:date ;
+                              v:jabatan_selesai  "2022-12-15"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :JohnWempiWetipo
+                            ] .
+
+:SriMulyaniIndrawati  rdfs:label  "Sri Mulyani Indrawati" .
+
+:SitiNurbayaBakar  rdfs:label  "Siti Nurbaya Bakar" .
+
+:SaptaNirwandar  rdfs:label  "Sapta Nirwandar" .
+
+:Pratikno  rdfs:label  "Pratikno" .
+
+:MohammadMahfudMD  rdfs:label  "Mohammad Mahfud MD" .
+
+:NasaruddinUmar  rdfs:label  "Nasaruddin Umar" .
+
+:SitiFadilahSupari  rdfs:label  "Siti Fadilah Supari" .
+
+:IdrusMarham  rdfs:label  "Idrus Marham" .
+
+:SuharsoMonoarfa  rdfs:label  "Suharso Monoarfa" .
+
+:ChairulTanjung  rdfs:label  "Chairul Tanjung" .
+
+:FachrulRazi  rdfs:label  "Fachrul Razi" .
+
+:HadiTjahjanto  rdfs:label  "Hadi Tjahjanto" .
+
+:BasukiHadimuljono  rdfs:label  "Basuki Hadimuljono" .
+
+:MuhammadJusufKalla  rdfs:label  "Muhammad Jusuf Kalla" .
+
+:ErmanSuparno  rdfs:label  "Erman Suparno" .
+
+:AndungNitimihardja  rdfs:label  "Andung Nitimihardja" .
+
+:AirlanggaHartarto  rdfs:label  "Airlangga Hartarto" .
+
+:NadiemMakarim  rdfs:label  "Nadiem Makarim" .
+
+:MenteriNegaraPerencanaanPembangunanNasional
+        rdfs:label          "Menteri Negara Perencanaan Pembangunan Nasional" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2005-12-07"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :PaskahSuzetta
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2005-12-07"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SriMulyaniIndrawati
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :ArmidaAlisjahbana
+                            ] .
+
+:DjokoKirmanto  rdfs:label  "Djoko Kirmanto" .
+
+:KepalaStafKepresidenan
+        rdfs:label          "Kepala Staf Kepresidenan" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai  "2018-01-17"^^xsd:date ;
+                              v:kabinet        :KabinetKerja ;
+                              v:pejabat        :Moeldoko ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2015-09-02"^^xsd:date ;
+                              v:jabatan_selesai  "2018-01-17"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :TetenMasduki
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2014-12-31"^^xsd:date ;
+                              v:jabatan_selesai  "2015-09-02"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :LuhutBinsarPanjaitan
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai  "2019-10-22"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :Moeldoko ;
+                              v:status         "Petahana"
+                            ] .
+
+:RiniSoemarno  rdfs:label  "Rini Soemarno" .
+
+:Arminsyah  rdfs:label  "Arminsyah" .
+
+:EkoPrasojo  rdfs:label  "Eko Prasojo" .
+
+:MenteriEnergidanSumberDayaMineral
+        rdfs:label          "Menteri Energi dan Sumber Daya Mineral" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :PurnomoYusgiantoro
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-09-11"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :ChairulTanjung ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :DarwinZahedySaleh
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2016-10-14"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :IgnasiusJonan
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :ArifinTasrif ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-09-11"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :JeroWacik
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2016-07-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :SudirmanSaid
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2016-08-15"^^xsd:date ;
+                              v:jabatan_selesai  "2016-10-14"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :LuhutBinsarPanjaitan ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2016-07-27"^^xsd:date ;
+                              v:jabatan_selesai  "2016-08-15"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :ArcandraTahar
+                            ] .
+
+:NilaMoeloek  rdfs:label  "Nila Moeloek" .
+
+:MohammadLukmanEdy  rdfs:label  "Mohammad Lukman Edy" .
+
+:WakilMenteriDalamNegeri
+        rdfs:label          "Wakil Menteri Dalam Negeri" ;
+        v:pemegang_jabatan  [ v:afiliasi       :PDI-P ;
+                              v:jabatan_mulai  "2022-12-15"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :JohnWempiWetipo ;
+                              v:status         "Petahana"
+                            ] .
+
+:TimurPradopo  rdfs:label  "Timur Pradopo" .
+
+:Darmono  rdfs:label  "Darmono" .
+
+:TitoKarnavian  rdfs:label  "Tito Karnavian" .
+
+:BalthasarKambuaya  rdfs:label  "Balthasar Kambuaya" .
+
+:MuhammadPrasetyo  rdfs:label  "Muhammad Prasetyo" .
+
+:MuhaiminIskandar  rdfs:label  "Muhaimin Iskandar" .
+
+:KepalaOtoritaIbuKotaNusantara
+        rdfs:label          "Kepala Otorita Ibu Kota Nusantara" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai  "2022-03-10"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :BambangSusantono ;
+                              v:status         "Petahana"
+                            ] .
+
+:SudirmanSaid  rdfs:label  "Sudirman Said" .
+
+:ArcandraTahar  rdfs:label  "Arcandra Tahar" .
+
+:WidjajonoPartowidagdo
+        rdfs:label  "Widjajono Partowidagdo" .
+
+:PahalaMansury  rdfs:label  "Pahala Mansury" .
+
+:Mardiasmo  rdfs:label  "Mardiasmo" .
+
+:KuntoroMangkusubroto
+        rdfs:label  "Kuntoro Mangkusubroto" .
+
+:MenteriPendidikanNasional
+        rdfs:label          "Menteri Pendidikan Nasional" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PAN ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :BambangSudibyo
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MohammadNuh
+                            ] .
+
+:MenteriKesehatan  rdfs:label  "Menteri Kesehatan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SitiFadilahSupari
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2012-06-14"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :NafsiahMboi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2012-04-30"^^xsd:date ;
+                              v:jabatan_selesai  "2012-06-14"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AliGhufronMukti ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2012-04-30"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :EndangRahayuSedyaningsih
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :NilaMoeloek
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2020-12-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :BudiGunadiSadikin ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2020-12-23"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :TerawanAgusPutranto
+                            ] .
+
+:TaufikEffendy  rdfs:label  "Taufik Effendy" .
+
+:MenteriHukumdanHakAsasiManusia
+        rdfs:label          "Menteri Hukum dan Hak Asasi Manusia" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2007-05-09"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MohammadAndiMattalatta
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2007-05-09"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :HamidAwaluddin
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AmirSyamsuddin
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PAN ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :PatrialisAkbar
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PDI-P ;
+                              v:jabatan_mulai    "2019-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :TjahjoKumolo ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PDI-P ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-01"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :YasonnaLaoly
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PDI-P ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :YasonnaLaoly ;
+                              v:status         "Petahana"
+                            ] .
+
+:MenteriKetenagakerjaan
+        rdfs:label          "Menteri Ketenagakerjaan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :HanifDhakiri
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PKB ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :IdaFauziyah ;
+                              v:status         "Petahana"
+                            ] .
+
+:ZainutTauhidSaadi  rdfs:label  "Zainut Tauhid Sa'adi" .
+
+:RachmadGobel  rdfs:label  "Rachmad Gobel" .
+
+:EvertErnestMangindaan
+        rdfs:label  "Evert Ernest Mangindaan" .
+
+:Syafruddin  rdfs:label  "Syafruddin" .
+
+:MuhammadLutfi  rdfs:label  "Muhammad Lutfi" .
+
+:ThomasTrikasihLembong
+        rdfs:label  "Thomas Trikasih Lembong" .
+
+:PaimanRaharjo  rdfs:label  "Paiman Raharjo" .
+
+:WakilMenteriPerindustrian
+        rdfs:label          "Wakil Menteri Perindustrian" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2009-11-11"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AlexRetraubun
+                            ] .
+
+:JohnWempiWetipo  rdfs:label  "John Wempi Wetipo" .
+
+:WakilMenteriHukumdanHakAsasiManusia
+        rdfs:label          "Wakil Menteri Hukum dan Hak Asasi Manusia" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :DennyIndrayana
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2020-12-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :EdwardOmarSharifHiariej ;
+                              v:status         "Petahana"
+                            ] .
+
+:MenteriNegaraLingkunganHidup
+        rdfs:label          "Menteri Negara Lingkungan Hidup" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :RachmatWitoelar
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :GustiMuhammadHatta
+                            ] .
+
+:MenteriPertanian  rdfs:label  "Menteri Pertanian" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKS ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :AntonApriantono
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKS ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :Suswono
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AmranSulaiman
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2023-10-06"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :AriefPrasetyoAdi ;
+                              v:status         "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :NasDem ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2023-10-06"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :SyahrulYasinLimpo ;
+                              v:status           "Petahana"
+                            ] .
+
+:RizalRamli  rdfs:label  "Rizal Ramli" .
+
+:AdhyaksaDault  rdfs:label  "Adhyaksa Dault" .
+
+:JokoWidodo  rdfs:label  "Joko Widodo" .
+
+:SudiSilalahi  rdfs:label  "Sudi Silalahi" .
+
+:BambangSudibyo  rdfs:label  "Bambang Sudibyo" .
+
+:KabinetIndonesiaBersatu
+        rdfs:label  "Kabinet Indonesia Bersatu" .
+
+:Sutarman  rdfs:label  "Sutarman" .
+
+:KabinetIndonesiaMaju
+        rdfs:label  "Kabinet Indonesia Maju" .
+
+:ListyoSigitPrabowo  rdfs:label  "Listyo Sigit Prabowo" .
+
+:KabinetKerja  rdfs:label  "Kabinet Kerja" .
+
+:DjanFaridz  rdfs:label  "Djan Faridz" .
+
+:MohammadNuh  rdfs:label  "Mohammad Nuh" .
+
+:AbdulHalimIskandar  rdfs:label  "Abdul Halim Iskandar" .
+
+:Sutanto  rdfs:label  "Sutanto" .
+
+:MariElkaPangestu  rdfs:label  "Mari Elka Pangestu" .
+
+:HanifDhakiri  rdfs:label  "Hanif Dhakiri" .
+
+:MuhammadYusufAsyari  rdfs:label  "Muhammad Yusuf Asy'ari" .
+
+:MenteriSekretarisNegara
+        rdfs:label          "Menteri Sekretaris Negara" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PAN ;
+                              v:jabatan_mulai    "2007-05-09"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :HattaRajasa
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PBB ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2007-05-09"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :YusrilIhzaMahendra
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SudiSilalahi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :Pratikno
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :Pratikno ;
+                              v:status         "Petahana"
+                            ] .
+
+:MenteriPariwisata  rdfs:label  "Menteri Pariwisata" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AriefYahya
+                            ] .
+
+:AmranSulaiman  rdfs:label  "Amran Sulaiman" .
+
+:WakilMenteriBadanUsahaMilikNegara
+        rdfs:label          "Wakil Menteri Badan Usaha Milik Negara" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MahmuddinYasin
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2023-07-17"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :RosanRoeslani ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2020-12-23"^^xsd:date ;
+                              v:jabatan_selesai  "2023-07-17"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :PahalaMansury
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-25"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :KartikaWirjoatmodjo ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-25"^^xsd:date ;
+                              v:jabatan_selesai  "2020-12-23"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :BudiGunadiSadikin
+                            ] .
+
+:BahlilLahadalia  rdfs:label  "Bahlil Lahadalia" .
+
+:MenteriRisetTeknologidanPendidikanTinggi
+        rdfs:label          "Menteri Riset, Teknologi dan Pendidikan Tinggi" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :MohamadNasir
+                            ] .
+
+:PrabowoSubianto  rdfs:label  "Prabowo Subianto" .
+
+:WakilMenteriEnergidanSumberDayaMineral
+        rdfs:label          "Wakil Menteri Energi dan Sumber Daya Mineral" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2013-01-15"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SusiloSiswoutomo
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2012-06-14"^^xsd:date ;
+                              v:jabatan_selesai  "2013-01-15"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :RudiRubiandini
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2012-04-21"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :WidjajonoPartowidagdo
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2016-10-14"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :ArcandraTahar
+                            ] .
+
+:EdwardOmarSharifHiariej
+        rdfs:label  "Edward Omar Sharif Hiariej" .
+
+:AngelaTanoesoedibjo  rdfs:label  "Angela Tanoesoedibjo" .
+
+:SaifullahYusuf  rdfs:label  "Saifullah Yusuf" .
+
+:MenteriLuarNegeri  rdfs:label  "Menteri Luar Negeri" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :HassanWirajuda
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MartyNatalegawa
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :RetnoMarsudi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :RetnoLestariPriansariMarsudi ;
+                              v:status         "Petahana"
+                            ] .
+
+:MenteriRisetdanTeknologiKepalaBadanRisetdanInovasiNasional
+        rdfs:label          "Menteri Riset dan Teknologi/ Kepala Badan Riset dan Inovasi Nasional" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2021-04-28"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :BambangBrodjonegoro
+                            ] .
+
+:RetnoLestariPriansariMarsudi
+        rdfs:label  "Retno Lestari Priansari Marsudi" .
+
+:SofyanDjalil  rdfs:label  "Sofyan Djalil" .
+
+:MahendraSiregar  rdfs:label  "Mahendra Siregar" .
+
+:KartikaWirjoatmodjo  rdfs:label  "Kartika Wirjoatmodjo" .
+
+:HamidAwaluddin  rdfs:label  "Hamid Awaluddin" .
+
+:MenteriKoperasidanUsahaKecildanMenengah
+        rdfs:label          "Menteri Koperasi dan Usaha Kecil dan Menengah" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MuhammadLutfi ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-01"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SyarifuddinHasan
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PDI-P ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AnakAgungGedeNgurahPuspayoga
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi                :PDI-P ;
+                              v:afiliasi_saat_dilantik  :Nonpartai ;
+                              v:jabatan_mulai           "2019-10-23"^^xsd:date ;
+                              v:kabinet                 :KabinetIndonesiaMaju ;
+                              v:pejabat                 :TetenMasduki ;
+                              v:status                  "Petahana"
+                            ] .
+
+:BudiGunawan  rdfs:label  "Budi Gunawan" .
+
+:LindaAmaliaSari  rdfs:label  "Linda Amalia Sari" .
+
+:WakilMenteriKeuangan
+        rdfs:label          "Wakil Menteri Keuangan" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2013-10-03"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :BambangBrodjonegoro
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2013-10-03"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MahendraSiregar
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2010-05-20"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AnnyRatnawati
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :Mardiasmo
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-25"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :SuahasilNazara ;
+                              v:status         "Petahana"
+                            ] .
+
+:IGustiAyuBintangDarmawati
+        rdfs:label  "I Gusti Ayu Bintang Darmawati" .
+
+:KepalaBadanPembinaanIdeologiPancasila
+        rdfs:label          "Kepala Badan Pembinaan Ideologi Pancasila" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2018-07-19"^^xsd:date ;
+                              v:jabatan_selesai  "2020-02-05"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :Hariyono ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2018-02-28"^^xsd:date ;
+                              v:jabatan_selesai  "2018-06-08"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :YudiLatief
+                            ] .
+
+:AfriansyahNoor  rdfs:label  "Afriansyah Noor" .
+
+:KabinetIndonesiaBersatuII
+        rdfs:label  "Kabinet Indonesia Bersatu II" .
+
+:SharifCicipSutarjo  rdfs:label  "Sharif Cicip Sutarjo" .
+
+:Moeldoko  rdfs:label  "Moeldoko" .
+
+:SuryadharmaAli  rdfs:label  "Suryadharma Ali" .
+
+:MenteriKoordinatorBidangKemaritimandanSumberDaya
+        rdfs:label          "Menteri Koordinator Bidang Kemaritiman dan Sumber Daya" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2016-07-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :LuhutBinsarPanjaitan
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2015-08-12"^^xsd:date ;
+                              v:jabatan_selesai  "2016-07-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :RizalRamli
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2015-08-12"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :IndroyonoSoesilo
+                            ] .
+
+:FreddyNumberi  rdfs:label  "Freddy Numberi" .
+
+:TriRismaharini  rdfs:label  "Tri Rismaharini" .
+
+:PanglimaTentaraNasionalIndonesia
+        rdfs:label          "Panglima Tentara Nasional Indonesia" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2013-08-30"^^xsd:date ;
+                              v:jabatan_selesai  "2015-07-08"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :Moeldoko
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2017-12-08"^^xsd:date ;
+                              v:jabatan_selesai  "2021-11-17"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :HadiTjahjanto
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai  "2022-12-19"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :YudoMargono ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2006-02-13"^^xsd:date ;
+                              v:jabatan_selesai  "2007-12-28"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :DjokoSuyanto
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2021-11-17"^^xsd:date ;
+                              v:jabatan_selesai  "2022-12-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :AndikaPerkasa
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2007-12-28"^^xsd:date ;
+                              v:jabatan_selesai  "2010-09-28"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :DjokoSantoso
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2017-12-08"^^xsd:date ;
+                              v:jabatan_selesai  "2021-11-17"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :HadiTjahjanto
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2010-12-28"^^xsd:date ;
+                              v:jabatan_selesai  "2013-08-30"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AgusSuhartono
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2013-08-30"^^xsd:date ;
+                              v:jabatan_selesai  "2015-07-08"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :Moeldoko
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2007-12-28"^^xsd:date ;
+                              v:jabatan_selesai  "2010-12-28"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :DjokoSantoso
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2015-07-08"^^xsd:date ;
+                              v:jabatan_selesai  "2017-12-08"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :GatotNurmantyo
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2002-06-07"^^xsd:date ;
+                              v:jabatan_selesai  "2006-02-13"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :EndriartonoSutarto
+                            ] .
+
+:RajaJuliAntoni  rdfs:label  "Raja Juli Antoni" .
+
+:WakilMenteriPekerjaanUmum
+        rdfs:label          "Wakil Menteri Pekerjaan Umum" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2009-11-11"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :HermantoDardak
+                            ] .
+
+:MenteriPendidikandanKebudayaan
+        rdfs:label          "Menteri Pendidikan dan Kebudayaan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MohammadNuh
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2016-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :MuhadjirEffendy
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2016-10-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AniesBaswedan
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2021-04-28"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :NadiemMakarim
+                            ] .
+
+:AburizalBakrie  rdfs:label  "Aburizal Bakrie" .
+
+:HassanWirajuda  rdfs:label  "Hassan Wirajuda" .
+
+:MenteriLingkunganHidupdanKehutanan
+        rdfs:label          "Menteri Lingkungan Hidup dan Kehutanan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :NasDem ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :SitiNurbayaBakar
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :NasDem ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :SitiNurbayaBakar ;
+                              v:status         "Petahana"
+                            ] .
+
+:MohamadNasir  rdfs:label  "Mohamad Nasir" .
+
+:MusliarKasim  rdfs:label  "Musliar Kasim" .
+
+:BadrodinHaiti  rdfs:label  "Badrodin Haiti" .
+
+:SyarifuddinHasan  rdfs:label  "Syarifuddin Hasan" .
+
+:SusiloSiswoutomo  rdfs:label  "Susilo Siswoutomo" .
+
+:WakilMenteriPendidikandanKebudayaanBidangPendidikan
+        rdfs:label          "Wakil Menteri Pendidikan dan Kebudayaan Bidang Pendidikan" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MusliarKasim
+                            ] .
+
+:MenteriPendayagunaanAparaturNegaradanReformasiBirokrasi
+        rdfs:label          "Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PAN ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AzwarAbubakar
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PAN ;
+                              v:jabatan_mulai    "2016-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2018-08-15"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AsmanAbnur
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Hanura ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2016-10-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :YuddyChrisnandi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2018-08-15"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :Syafruddin
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2022-07-16"^^xsd:date ;
+                              v:jabatan_selesai  "2022-09-07"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :MohammadMahfudMD ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2022-12-20"^^xsd:date ;
+                              v:jabatan_selesai  "2022-07-04"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :MohammadMahfudMD ;
+                              v:status           "ad-interim"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PDI-P ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2022-12-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :TjahjoKumolo
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2022-07-04"^^xsd:date ;
+                              v:jabatan_selesai  "2022-07-16"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :TitoKarnavian ;
+                              v:status           "ad-interim"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PDI-P ;
+                              v:jabatan_mulai  "2022-09-07"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :AbdullahAzwarAnas ;
+                              v:status         "Petahana"
+                            ] .
+
+:MenteriKoordinatorBidangPolitikHukumdanKeamanan
+        rdfs:label          "Menteri Koordinator Bidang Politik, Hukum, dan Keamanan" , "Menteri Koordinator Bidang Politik, Hukum, dan Keamanan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :WidodoAdiSutjipto
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :DjokoSuyanto
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Hanura ;
+                              v:jabatan_mulai    "2016-07-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :Wiranto
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2015-08-12"^^xsd:date ;
+                              v:jabatan_selesai  "2016-07-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :LuhutBinsarPanjaitan
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :NasDem ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2015-08-12"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :TedjoEdhyPurdijatno
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Golkar ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :MohammadMahfudMD ;
+                              v:status         "Petahana"
+                            ] .
+
+:MenteriPemberdayaanPerempuandanPerlindunganAnak
+        rdfs:label          "Menteri Pemberdayaan Perempuan dan Perlindungan Anak" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :LindaAmaliaSari
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :YohanaYembise
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PDI-P ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :IGustiAyuBintangDarmawati ;
+                              v:status         "Petahana"
+                            ] .
+
+:RachmatWitoelar  rdfs:label  "Rachmat Witoelar" .
+
+:LaksanaTriHandoko  rdfs:label  "Laksana Tri Handoko" .
+
+:BambangBrodjonegoro  rdfs:label  "Bambang Brodjonegoro" .
+
+:MSKaban  rdfs:label  "MS Kaban" .
+
+:AndikaPerkasa  rdfs:label  "Andika Perkasa" .
+
+:RosanRoeslani  rdfs:label  "Rosan Roeslani" .
+
+:MenteriLingkunganHidup
+        rdfs:label          "Menteri Lingkungan Hidup" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :BalthasarKambuaya
+                            ] .
+
+:AliGhufronMukti  rdfs:label  "Ali Ghufron Mukti" .
+
+:KepalaBadanKoordinasiPenanamanModal
+        rdfs:label          "Kepala Badan Koordinasi Penanaman Modal" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2013-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2014-11-27"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MahendraSiregar
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2012-06-14"^^xsd:date ;
+                              v:jabatan_selesai  "2013-10-01"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MuhammadChatibBasri
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2012-06-14"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :GitaWirjawan
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2016-07-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-22"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :ThomasTrikasihLembong
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2014-11-27"^^xsd:date ;
+                              v:jabatan_selesai  "2016-07-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :FrankySibarani
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2013-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2014-11-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :MahendraSiregar
+                            ] .
+
+:WakilMenteriPendayagunaanAparaturNegaradanReformasiBirokrasi
+        rdfs:label          "Wakil Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :EkoPrasojo
+                            ] .
+
+:Wardana  rdfs:label  "Wardana" .
+
+:AbdulRahmanSaleh  rdfs:label  "Abdul Rahman Saleh" .
+
+:WakilMenteriPendidikanNasional
+        rdfs:label          "Wakil Menteri Pendidikan Nasional" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2010-01-06"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :FasliJalal
+                            ] .
+
+:TriyonoWibowo  rdfs:label  "Triyono Wibowo" .
+
+:EndangRahayuSedyaningsih
+        rdfs:label  "Endang Rahayu Sedyaningsih" .
+
+:DennyIndrayana  rdfs:label  "Denny Indrayana" .
+
+:WienduNuryanti  rdfs:label  "Wiendu Nuryanti" .
+
+:MenteriPariwisatadanEkonomiKreatifKepalaBadanPariwisatadanEkonomiKreatif
+        rdfs:label          "Menteri Pariwisata dan Ekonomi Kreatif/ Kepala Badan Pariwisata dan Ekonomi Kreatif" ;
+        v:pemegang_jabatan  [ v:afiliasi                :PPP ;
+                              v:afiliasi_saat_dilantik  :Gerindra ;
+                              v:jabatan_mulai           "2020-12-23"^^xsd:date ;
+                              v:kabinet                 :KabinetIndonesiaMaju ;
+                              v:pejabat                 :SandiagaUno ;
+                              v:status                  "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2020-12-23"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :WishnutamaKusubandio
+                            ] .
+
+:JohnnyGerardPlate  rdfs:label  "Johnny Gerard Plate" .
+
+:YusrilIhzaMahendra  rdfs:label  "Yusril Ihza Mahendra" .
+
+:AsmanAbnur  rdfs:label  "Asman Abnur" .
+
+:MarufAmin  rdfs:label  "Ma'ruf Amin" .
+
+:NezarPatria  rdfs:label  "Nezar Patria" .
+
+:MenteriPerhubungan  rdfs:label  "Menteri Perhubungan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2007-05-09"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :JusmanSyafiiDjamal
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PAN ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2007-05-09"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :HattaRajasa
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :BambangSusantono ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-01"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :EvertErnestMangindaan
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :FreddyNumberi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2016-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :BudiKaryaSumadi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2016-10-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :IgnasiusJonan
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :BudiKaryaSumadi ;
+                              v:status         "Petahana"
+                            ] .
+
+:SuryaTjandra  rdfs:label  "Surya Tjandra" .
+
+:MuhammadChatibBasri  rdfs:label  "Muhammad Chatib Basri" .
+
+:IdaFauziyah  rdfs:label  "Ida Fauziyah" .
+
+:RyamizardRyacudu  rdfs:label  "Ryamizard Ryacudu" .
+
+:MohammadAndiMattalatta
+        rdfs:label  "Mohammad Andi Mattalatta" .
+
+:AgungLaksono  rdfs:label  "Agung Laksono" .
+
+:HelmyFaishalZaini  rdfs:label  "Helmy Faishal Zaini" .
+
+:MenteriNegaraPendayagunaanAparaturNegaradanReformasiBirokrasi
+        rdfs:label          "Menteri Negara Pendayagunaan Aparatur Negara dan Reformasi Birokrasi" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :EvertErnestMangindaan
+                            ] .
+
+:AriDonoSukmanto  rdfs:label  "Ari Dono Sukmanto" .
+
+:AgusMartowardojo  rdfs:label  "Agus Martowardojo" .
+
+:PurnomoYusgiantoro  rdfs:label  "Purnomo Yusgiantoro" .
+
+:LukitaDinarsyahTuwo  rdfs:label  "Lukita Dinarsyah Tuwo" .
+
+:PuanMaharani  rdfs:label  "Puan Maharani" .
+
+:MenteriPerindustrian
+        rdfs:label          "Menteri Perindustrian" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2005-12-07"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :FahmiIdris
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2005-12-07"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :AndungNitimihardja
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MohamadSulemanHidayat
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2016-07-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AirlanggaHartarto
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Hanura ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2016-07-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :SalehHusin
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Golkar ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :AgusGumiwangKartasasmita ;
+                              v:status         "Petahana"
+                            ] .
+
+:Hariyono  rdfs:label  "Hariyono" .
+
+:DaiBachtiar  rdfs:label  "Da'i Bachtiar" .
+
+:MenteriTenagaKerjadanTransmigrasi
+        rdfs:label          "Menteri Tenaga Kerja dan Transmigrasi" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2005-12-07"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :ErmanSuparno
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2005-12-07"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :FahmiIdris
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :ArmidaAlisjahbana ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-01"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MuhaiminIskandar
+                            ] .
+
+:AbdullahAzwarAnas  rdfs:label  "Abdullah Azwar Anas" .
+
+:MenteriDesaPembangunanDaerahTertinggaldanTransmigrasi
+        rdfs:label          "Menteri Desa, Pembangunan Daerah Tertinggal dan Transmigrasi" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2016-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :EkoPutroSandjojo
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2016-10-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :MarwanJafar
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PKB ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :AbdulHalimIskandar ;
+                              v:status         "Petahana"
+                            ] .
+
+:GustiMuhammadHatta  rdfs:label  "Gusti Muhammad Hatta" .
+
+:HarvickHasnulQolbi  rdfs:label  "Harvick Hasnul Qolbi" .
+
+:MuhadjirEffendy  rdfs:label  "Muhadjir Effendy" .
+
+:JaksaAgung  rdfs:label     "Jaksa Agung" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2019-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-23"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :Arminsyah ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2014-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2014-11-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AndhiNirwanto ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2010-09-24"^^xsd:date ;
+                              v:jabatan_selesai  "2010-11-26"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :Darmono ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :STBurhanuddin ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2010-11-26"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :BasriefArief
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2007-05-09"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :AbdulRahmanSaleh
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2007-05-09"^^xsd:date ;
+                              v:jabatan_selesai  "2010-09-24"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :HendarmanSupandji
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2007-05-09"^^xsd:date ;
+                              v:jabatan_selesai  "2010-09-24"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :HendarmanSupandji
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2014-11-20"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-21"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :MuhammadPrasetyo
+                            ] .
+
+:AgusGumiwangKartasasmita
+        rdfs:label  "Agus Gumiwang Kartasasmita" .
+
+:YudoMargono  rdfs:label  "Yudo Margono" .
+
+:BasriefArief  rdfs:label  "Basrief Arief" .
+
+:DjokoSuyanto  rdfs:label  "Djoko Suyanto" .
+
+:MenteriPerencanaanPembangunanNasionalKepalaBadanPerencanaanPembangunanNasional
+        rdfs:label          "Menteri Perencanaan Pembangunan Nasional/Kepala Badan Perencanaan Pembangunan Nasional" , "Menteri Perencanaan Pembangunan Nasional/ Kepala Badan Perencanaan Pembangunan Nasional" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :ArmidaAlisjahbana
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2016-07-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :BambangBrodjonegoro
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2015-08-12"^^xsd:date ;
+                              v:jabatan_selesai  "2016-07-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :SofyanDjalil
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2015-08-12"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AndrinofChaniago
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PPP ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :SuharsoMonoarfa ;
+                              v:status         "Petahana"
+                            ] .
+
+:SyahrulYasinLimpo  rdfs:label  "Syahrul Yasin Limpo" .
+
+:MenteriPerdagangan  rdfs:label  "Menteri Perdagangan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MariElkaPangestu
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2015-08-12"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :RachmadGobel
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2020-12-23"^^xsd:date ;
+                              v:jabatan_selesai  "2022-06-15"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :MuhammadLutfi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-14"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MuhammadLutfi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PAN ;
+                              v:jabatan_mulai  "2022-06-15"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :ZulkifliHasan ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MariElkaPangestu
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-01-31"^^xsd:date ;
+                              v:jabatan_selesai  "2014-02-14"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :BayuKrisnamurthi ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2020-12-23"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :AgusSuparmanto
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-01-31"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :GitaWirjawan
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :NasDem ;
+                              v:jabatan_mulai    "2016-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :EnggartiastoLukita
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2015-08-12"^^xsd:date ;
+                              v:jabatan_selesai  "2016-10-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :ThomasTrikasihLembong
+                            ] .
+
+:MenteriPembangunanDaerahTertinggal
+        rdfs:label          "Menteri Pembangunan Daerah Tertinggal" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :ArmidaAlisjahbana ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-01"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :HelmyFaishalZaini
+                            ] .
+
+:WishnutamaKusubandio
+        rdfs:label  "Wishnutama Kusubandio" .
+
+:AntonApriantono  rdfs:label  "Anton Apriantono" .
+
+:HattaRajasa  rdfs:label  "Hatta Rajasa" .
+
+:EnggartiastoLukita  rdfs:label  "Enggartiasto Lukita" .
+
+:BachtiarChamsyah  rdfs:label  "Bachtiar Chamsyah" .
+
+:SekretarisKabinet  rdfs:label  "Sekretaris Kabinet" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SudiSilalahi
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2010-01-07"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :DipoAlam
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2015-08-12"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :PramonoAnung
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2014-11-03"^^xsd:date ;
+                              v:jabatan_selesai  "2015-08-12"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AndiWidjajanto
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai  "2019-10-22"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :PramonoAnung ;
+                              v:status         "Petahana"
+                            ] .
+
+:DahlanIskan  rdfs:label  "Dahlan Iskan" .
+
+:SriMulyani  rdfs:label  "Sri Mulyani" .
+
+:MenteriRisetdanTeknologi
+        rdfs:label          "Menteri Riset dan Teknologi" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :GustiMuhammadHatta
+                            ] .
+
+:EkoPutroSandjojo  rdfs:label  "Eko Putro Sandjojo" .
+
+:SaifulRahmatDasuki  rdfs:label  "Saiful Rahmat Dasuki" .
+
+:MenteriNegaraKoperasidanUsahaKecildanMenengah
+        rdfs:label          "Menteri Negara Koperasi dan Usaha Kecil dan Menengah" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MariElkaPangestu ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PPP ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-09-30"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SuryadharmaAli
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SyarifuddinHasan
+                            ] .
+
+:ArifinTasrif  rdfs:label  "Arifin Tasrif" .
+
+:BudiKaryaSumadi  rdfs:label  "Budi Karya Sumadi" .
+
+:IgnasiusJonan  rdfs:label  "Ignasius Jonan" .
+
+:EndriartonoSutarto  rdfs:label  "Endriartono Sutarto" .
+
+:FerryMursyidanBaldan
+        rdfs:label  "Ferry Mursyidan Baldan" .
+
+:TriawanMunaf  rdfs:label  "Triawan Munaf" .
+
+:WakilMenteriKetenagakerjaan
+        rdfs:label          "Wakil Menteri Ketenagakerjaan" ;
+        v:pemegang_jabatan  [ v:afiliasi       :PBB ;
+                              v:jabatan_mulai  "2022-06-15"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :AfriansyahNoor ;
+                              v:status         "Petahana"
+                            ] .
+
+:MenteriKoordinatorBidangPembangunanManusiadanKebudayaan
+        rdfs:label          "Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :DarminNasution ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PDI-P ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-01"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :PuanMaharani
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :MuhadjirEffendy ;
+                              v:status         "Petahana"
+                            ] .
+
+:MohamadSulemanHidayat
+        rdfs:label  "Mohamad Suleman Hidayat" .
+
+:DarminNasution  rdfs:label  "Darmin Nasution" .
+
+:MenteriSosial  rdfs:label  "Menteri Sosial" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PPP ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :BachtiarChamsyah
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKS ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SalimSegafAl-Jufri
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2018-08-24"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AgusGumiwangKartasasmita
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2018-01-17"^^xsd:date ;
+                              v:jabatan_selesai  "2018-08-24"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :IdrusMarham
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2018-01-17"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :KhofifahIndarParawansa
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PDI-P ;
+                              v:jabatan_mulai  "2020-12-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :TriRismaharini ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2020-12-06"^^xsd:date ;
+                              v:jabatan_selesai  "2020-12-23"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :MuhadjirEffendy ;
+                              v:status           "ad-interim"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PDI-P ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2020-12-06"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :JuliariBatubara
+                            ] .
+
+:MenteriDalamNegeri  rdfs:label  "Menteri Dalam Negeri" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2007-08-29"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :Mardiyanto
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2007-04-02"^^xsd:date ;
+                              v:jabatan_selesai  "2007-08-29"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :WidodoAdiSutjipto ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2007-03-30"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :M.Maruf
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :GamawanFauzi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PDI-P ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :TjahjoKumolo
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :TitoKarnavian ;
+                              v:status         "Petahana"
+                            ] .
+
+:WakilMenteriAgama  rdfs:label  "Wakil Menteri Agama" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :NasaruddinUmar
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PPP ;
+                              v:jabatan_mulai  "2023-07-17"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :SaifulRahmatDasuki ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PPP ;
+                              v:jabatan_mulai    "2019-10-25"^^xsd:date ;
+                              v:jabatan_selesai  "2023-07-17"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :ZainutTauhidSaadi
+                            ] .
+
+:BudiArieSetiadi  rdfs:label  "Budi Arie Setiadi" .
+
+:BayuKrisnamurthi  rdfs:label  "Bayu Krisnamurthi" .
+
+:BambangSusantono  rdfs:label  "Bambang Susantono" .
+
+:Suswono  rdfs:label  "Suswono" .
+
+:MenteriAgrariadanTataRuangKepalaBadanPertanahanNasional
+        rdfs:label          "Menteri Agraria dan Tata Ruang/ Kepala Badan Pertanahan Nasional" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2016-07-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :SofyanDjalil
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :NasDem ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2016-07-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :FerryMursyidanBaldan
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2022-12-15"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :HadiTjahjanto ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2022-12-15"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :SofyanDjalil
+                            ] .
+
+:MenteriPekerjaanUmum
+        rdfs:label          "Menteri Pekerjaan Umum" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :DjokoKirmanto
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :DjokoKirmanto
+                            ] .
+
+:MenteriNegaraPemberdayaanPerempuan
+        rdfs:label          "Menteri Negara Pemberdayaan Perempuan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKPI ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MeuthiaHattaSwasono
+                            ] .
+
+:KepalaBadanEkonomiKreatif
+        rdfs:label          "Kepala Badan Ekonomi Kreatif" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2015-01-26"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-22"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :TriawanMunaf
+                            ] .
+
+:MenteriPemudadanOlahraga
+        rdfs:label          "Menteri Pemuda dan Olahraga" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2013-01-15"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :RoySuryo
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2012-12-07"^^xsd:date ;
+                              v:jabatan_selesai  "2013-01-15"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AgungLaksono ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2012-12-07"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AndiAlfianMallarangeng
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2019-09-19"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :HanifDhakiri ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-09-19"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :ImamNahrawi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Golkar ;
+                              v:jabatan_mulai  "2023-04-03"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :DitoAriotedjo ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2023-03-13"^^xsd:date ;
+                              v:jabatan_selesai  "2023-04-03"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :MuhadjirEffendy ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2023-03-13"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :ZainudinAmali
+                            ] .
+
+:MenteriNegaraPembangunanDaerahTertinggal
+        rdfs:label          "Menteri Negara Pembangunan Daerah Tertinggal" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :DjokoKirmanto ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2007-05-09"^^xsd:date ;
+                              v:jabatan_selesai  "2009-09-30"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MohammadLukmanEdy
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :HelmyFaishalZaini
+                            ] .
+
+:MahmuddinYasin  rdfs:label  "Mahmuddin Yasin" .
+
+:WakilMenteriPendidikandanKebudayaanBidangKebudayaan
+        rdfs:label          "Wakil Menteri Pendidikan dan Kebudayaan Bidang Kebudayaan" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :WienduNuryanti
+                            ] .
+
+:SuahasilNazara  rdfs:label  "Suahasil Nazara" .
+
+:Rudiantara  rdfs:label  "Rudiantara" .
+
+:PatrialisAkbar  rdfs:label  "Patrialis Akbar" .
+
+:ZulkifliHasan  rdfs:label  "Zulkifli Hasan" .
+
+:WakilMenteriKomunikasidanInformatika
+        rdfs:label          "Wakil Menteri Komunikasi dan Informatika" ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2023-07-17"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :NezarPatria ;
+                              v:status         "Petahana"
+                            ] .
+
+:WakilMenteriPariwisatadanEkonomiKreatif
+        rdfs:label          "Wakil Menteri Pariwisata dan Ekonomi Kreatif" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SaptaNirwandar
+                            ] .
+
+:Boediono  rdfs:label  "Boediono" .
+
+:SuharnaSurapranata  rdfs:label  "Suharna Surapranata" .
+
+:KepalaKepolisianRepublikIndonesia
+        rdfs:label          "Kepala Kepolisian Republik Indonesia" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2016-07-13"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-22"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :TitoKarnavian
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2015-04-17"^^xsd:date ;
+                              v:jabatan_selesai  "2016-07-13"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :BadrodinHaiti
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2015-01-17"^^xsd:date ;
+                              v:jabatan_selesai  "2015-04-17"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :BadrodinHaiti ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2013-10-25"^^xsd:date ;
+                              v:jabatan_selesai  "2015-01-16"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :Sutarman
+                            ] .
+
+:IdhamAzis  rdfs:label  "Idham Azis" .
+
+:YohanaYembise  rdfs:label  "Yohana Yembise" .
+
+:MenteriPekerjaanUmumdanPerumahanRakyat
+        rdfs:label          "Menteri Pekerjaan Umum dan Perumahan Rakyat" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :BasukiHadimuljono
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :BasukiHadimuljono ;
+                              v:status         "Petahana"
+                            ] .
+
+:STBurhanuddin  rdfs:label  "ST Burhanuddin" .
+
+:MenteriKomunikasidanInformatika
+        rdfs:label          "Menteri Komunikasi dan Informatika" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2007-05-09"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MohammadNuh
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2005-01-31"^^xsd:date ;
+                              v:jabatan_selesai  "2007-05-09"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SofyanDjalil
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :DjokoSuyanto ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKS ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-01"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :TifatulSembiring
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :Rudiantara
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2023-07-17"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :BudiArieSetiadi ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2023-05-19"^^xsd:date ;
+                              v:jabatan_selesai  "2023-07-17"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :MohammadMahfudMD ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :NasDem ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2023-05-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :JohnnyGerardPlate
+                            ] .
+
+:MenteriKebudayaandanPariwisata
+        rdfs:label          "Menteri Kebudayaan dan Pariwisata" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MohammadNuh ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-09-30"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :JeroWacik
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :JeroWacik
+                            ] .
+
+:WakilMenteriKesehatan
+        rdfs:label          "Wakil Menteri Kesehatan" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2009-11-11"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AliGhufronMukti
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2020-12-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :DanteSaksonoHarbuwono ;
+                              v:status         "Petahana"
+                            ] .
+
+:WakilMenteriLuarNegeri
+        rdfs:label          "Wakil Menteri Luar Negeri" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2014-07-14"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :DinoPattiDjalal
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-07-14"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :Wardana
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2008-09-11"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :TriyonoWibowo
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :AbdurrahmanMohammadFachir
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2023-07-17"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :PahalaMansury ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-25"^^xsd:date ;
+                              v:jabatan_selesai  "2022-07-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :MahendraSiregar
+                            ] .
+
+:MustafaAbubakar  rdfs:label  "Mustafa Abubakar" .
+
+:AgusSuhartono  rdfs:label  "Agus Suhartono" .
+
+:WakilMenteriPerencanaanPembangunanNasional
+        rdfs:label          "Wakil Menteri Perencanaan Pembangunan Nasional" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2010-01-06"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :LukitaDinarsyahTuwo
+                            ] .
+
+:NafsiahMboi  rdfs:label  "Nafsiah Mboi" .
+
+:AgusSuparmanto  rdfs:label  "Agus Suparmanto" .
+
+:AnakAgungGedeNgurahPuspayoga
+        rdfs:label  "Anak Agung Gede Ngurah Puspayoga" .
+
+:MenteriKelautandanPerikanan
+        rdfs:label          "Menteri Kelautan dan Perikanan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :FreddyNumberi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SharifCicipSutarjo
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :FadelMuhammad
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :SusiPudjiastuti
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2020-12-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :SaktiWahyuTrenggono ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :NasDem ;
+                              v:jabatan_mulai    "2020-12-02"^^xsd:date ;
+                              v:jabatan_selesai  "2020-12-23"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :SyahrulYasinLimpo ;
+                              v:status           "ad-interim"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2020-11-25"^^xsd:date ;
+                              v:jabatan_selesai  "2020-12-02"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :LuhutBinsarPanjaitan ;
+                              v:status           "ad-interim"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Gerindra ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2020-11-25"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :EdhyPrabowo
+                            ] .
+
+:MenteriNegaraBadanUsahaMilikNegara
+        rdfs:label          "Menteri Negara Badan Usaha Milik Negara" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2007-05-09"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SofyanDjalil
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2007-05-09"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :Soegiharto
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MustafaAbubakar
+                            ] .
+
+:TedjoEdhyPurdijatno  rdfs:label  "Tedjo Edhy Purdijatno" .
+
+:MuhammadHerindra  rdfs:label  "Muhammad Herindra" .
+
+:RudiRubiandini  rdfs:label  "Rudi Rubiandini" .
+
+:TetenMasduki  rdfs:label  "Teten Masduki" .
+
+:MarcianoNorman  rdfs:label  "Marciano Norman" .
+
+:ZainudinAmali  rdfs:label  "Zainudin Amali" .
+
+:AzwarAbubakar  rdfs:label  "Azwar Abubakar" .
+
+:WakilMenteriDesaPembangunanDaerahTertinggaldanTransmigrasi
+        rdfs:label          "Wakil Menteri Desa, Pembangunan Daerah Tertinggal dan Transmigrasi" ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2023-07-17"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :PaimanRaharjo ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-25"^^xsd:date ;
+                              v:jabatan_selesai  "2023-07-17"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :BudiArieSetiadi
+                            ] .
+
+:WakilMenteriPertanian
+        rdfs:label          "Wakil Menteri Pertanian" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :RusmanHeriawan
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2009-11-11"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :BayuKrisnamurthi
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2020-12-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :HarvickHasnulQolbi ;
+                              v:status         "Petahana"
+                            ] .
+
+:YuddyChrisnandi  rdfs:label  "Yuddy Chrisnandi" .
+
+:FasliJalal  rdfs:label  "Fasli Jalal" .
+
+:WakilMenteriAgrariadanTataRuangWakilKepalaBadanPertanahanNasional
+        rdfs:label          "Wakil Menteri Agraria dan Tata Ruang/Wakil Kepala Badan Pertanahan Nasional" ;
+        v:pemegang_jabatan  [ v:afiliasi       :PSI ;
+                              v:jabatan_mulai  "2022-12-15"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :RajaJuliAntoni ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PSI ;
+                              v:jabatan_mulai    "2019-10-25"^^xsd:date ;
+                              v:jabatan_selesai  "2022-12-15"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :SuryaTjandra
+                            ] .
+
+:Sutiyoso  rdfs:label  "Sutiyoso" .
+
+:DitoAriotedjo  rdfs:label  "Dito Ariotedjo" .
+
+:AndrinofChaniago  rdfs:label  "Andrinof Chaniago" .
+
+:TerawanAgusPutranto  rdfs:label  "Terawan Agus Putranto" .
+
+:MeuthiaHattaSwasono  rdfs:label  "Meuthia Hatta Swasono" .
+
+:MenteriNegaraRisetdanTeknologi
+        rdfs:label          "Menteri Negara Riset dan Teknologi" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :KusmayantoKadiman
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKS ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SuharnaSurapranata
+                            ] .
+
+:MartyNatalegawa  rdfs:label  "Marty Natalegawa" .
+
+:AmirSyamsuddin  rdfs:label  "Amir Syamsuddin" .
+
+:JerrySambuaga  rdfs:label  "Jerry Sambuaga" .
+
+:PaskahSuzetta  rdfs:label  "Paskah Suzetta" .
+
+:FahmiIdris  rdfs:label  "Fahmi Idris" .
+
+:SalimSegafAl-Jufri  rdfs:label  "Salim Segaf Al-Jufri" .
+
+:MenteriKehutanan  rdfs:label  "Menteri Kehutanan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PBB ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MSKaban
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :ChairulTanjung ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PAN ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-01"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :ZulkifliHasan
+                            ] .
+
+:TifatulSembiring  rdfs:label  "Tifatul Sembiring" .
+
+:AnnyRatnawati  rdfs:label  "Anny Ratnawati" .
+
+:WidodoAdiSutjipto  rdfs:label  "Widodo Adi Sutjipto" .
+
+:RetnoMarsudi  rdfs:label  "Retno Marsudi" .
+
+:DarwinZahedySaleh  rdfs:label  "Darwin Zahedy Saleh" .
+
+:MenteriNegaraPendayagunaanAparaturNegara
+        rdfs:label          "Menteri Negara Pendayagunaan Aparatur Negara" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-01"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :WidodoAdiSutjipto ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-09-30"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :TaufikEffendy
+                            ] .
+
+:AlexRetraubun  rdfs:label  "Alex Retraubun" .
+
+:MenteriKeuangan  rdfs:label  "Menteri Keuangan" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2016-07-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :SriMulyani
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2005-12-07"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SriMulyaniIndrawati
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2005-12-07"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :JusufAnwar
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2010-05-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SriMulyaniIndrawati
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2010-05-20"^^xsd:date ;
+                              v:jabatan_selesai  "2013-04-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AgusMartowardojo
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :SriMulyani ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2013-05-21"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MuhammadChatibBasri
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2016-07-27"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :BambangBrodjonegoro
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PAN ;
+                              v:jabatan_mulai    "2013-04-19"^^xsd:date ;
+                              v:jabatan_selesai  "2013-05-21"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :HattaRajasa ;
+                              v:status           "Pelaksana tugas"
+                            ] .
+
+:WakilMenteriPariwisatadanEkonomiKreatifWakilKepalaBadanPariwisatadanEkonomiKreatif
+        rdfs:label          "Wakil Menteri Pariwisata dan Ekonomi Kreatif/ Wakil Kepala Badan Pariwisata dan Ekonomi Kreatif" ;
+        v:pemegang_jabatan  [ v:afiliasi       :Perindo ;
+                              v:jabatan_mulai  "2019-10-25"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :AngelaTanoesoedibjo ;
+                              v:status         "Petahana"
+                            ] .
+
+:MenteriNegaraPercepatanPembangunanDaerahTertinggal
+        rdfs:label          "Menteri Negara Percepatan Pembangunan Daerah Tertinggal" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2007-05-09"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SaifullahYusuf
+                            ] .
+
+:JusmanSyafiiDjamal  rdfs:label  "Jusman Syafii Djamal" .
+
+:KepalaBadanIntelijenNegara
+        rdfs:label          "Kepala Badan Intelijen Negara" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2015-07-08"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :MarcianoNorman
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :Sutanto
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai  "2016-10-09"^^xsd:date ;
+                              v:kabinet        :KabinetKerja ;
+                              v:pejabat        :BudiGunawan ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2015-07-08"^^xsd:date ;
+                              v:jabatan_selesai  "2016-10-09"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :Sutiyoso
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2015-07-08"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :MarcianoNorman
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai  "2016-09-09"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :BudiGunawan ;
+                              v:status         "Petahana"
+                            ] .
+
+:MenteriInvestasiKepalaBadanKoordinasiPenanamanModal
+        rdfs:label          "Menteri Investasi/ Kepala Badan Koordinasi Penanaman Modal" ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2021-04-28"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :BahlilLahadalia ;
+                              v:status         "Petahana"
+                            ] .
+
+:AndiAlfianMallarangeng
+        rdfs:label  "Andi Alfian Mallarangeng" .
+
+:SaktiWahyuTrenggono  rdfs:label  "Sakti Wahyu Trenggono" .
+
+:MenteriNegaraPerumahanRakyat
+        rdfs:label          "Menteri Negara Perumahan Rakyat" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKS ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MuhammadYusufAsyari
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PPP ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SuharsoMonoarfa
+                            ] .
+
+:GamawanFauzi  rdfs:label  "Gamawan Fauzi" .
+
+:Mardiyanto  rdfs:label  "Mardiyanto" .
+
+:HermantoDardak  rdfs:label  "Hermanto Dardak" .
+
+:MenteriAgama  rdfs:label   "Menteri Agama" ;
+        v:pemegang_jabatan  [ v:afiliasi         :PKB ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :MuhammadMaftuhBasyuni
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PPP ;
+                              v:jabatan_mulai    "2014-06-09"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :LukmanHakimSaifuddin
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Golkar ;
+                              v:jabatan_mulai    "2014-05-28"^^xsd:date ;
+                              v:jabatan_selesai  "2014-06-09"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AgungLaksono ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PPP ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-05-28"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SuryadharmaAli
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PPP ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :LukmanHakimSaifuddin
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PKB ;
+                              v:jabatan_mulai  "2020-12-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :YaqutCholilQoumas ;
+                              v:status         "Petahana"
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2019-10-23"^^xsd:date ;
+                              v:jabatan_selesai  "2020-12-23"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :FachrulRazi
+                            ] .
+
+:AndhiNirwanto  rdfs:label  "Andhi Nirwanto" .
+
+:RusmanHeriawan  rdfs:label  "Rusman Heriawan" .
+
+:MenteriNegaraPemudadanOlahraga
+        rdfs:label          "Menteri Negara Pemuda dan Olahraga" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :AdhyaksaDault
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :AndiAlfianMallarangeng
+                            ] .
+
+:IndroyonoSoesilo  rdfs:label  "Indroyono Soesilo" .
+
+:AlwiShihab  rdfs:label  "Alwi Shihab" .
+
+:AndiWidjajanto  rdfs:label  "Andi Widjajanto" .
+
+:DanteSaksonoHarbuwono
+        rdfs:label  "Dante Saksono Harbuwono" .
+
+:GitaWirjawan  rdfs:label  "Gita Wirjawan" .
+
+:KepalaUnitKerjaPresidenBidangPengawasandanPengendalianPembangunan
+        rdfs:label          "Kepala Unit Kerja Presiden Bidang Pengawasan dan Pengendalian Pembangunan" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2014-12-31"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :KuntoroMangkusubroto
+                            ] .
+
+:ImamNahrawi  rdfs:label  "Imam Nahrawi" .
+
+:GatotNurmantyo  rdfs:label  "Gatot Nurmantyo" .
+
+:KepalaKepolisianNegaraRepublikIndonesia
+        rdfs:label          "Kepala Kepolisian Negara Republik Indonesia" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2001-11-29"^^xsd:date ;
+                              v:jabatan_selesai  "2005-07-08"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :DaiBachtiar
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2005-07-08"^^xsd:date ;
+                              v:jabatan_selesai  "2008-09-30"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :Sutanto
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2007-09-30"^^xsd:date ;
+                              v:jabatan_selesai  "2010-10-22"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :BambangHendarsoDanuri
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2008-09-30"^^xsd:date ;
+                              v:jabatan_selesai  "2010-10-22"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :BambangHendarsoDanuri
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2013-10-25"^^xsd:date ;
+                              v:jabatan_selesai  "2015-01-16"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :Sutarman
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2019-11-01"^^xsd:date ;
+                              v:jabatan_selesai  "2021-01-27"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :IdhamAzis
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2010-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2013-10-25"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :TimurPradopo
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai    "2019-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2019-11-01"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaMaju ;
+                              v:pejabat          :AriDonoSukmanto ;
+                              v:status           "Pelaksana tugas"
+                            ] ;
+        v:pemegang_jabatan  [ v:jabatan_mulai  "2021-01-27"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :ListyoSigitPrabowo ;
+                              v:status         "Petahana"
+                            ] .
+
+:KhofifahIndarParawansa
+        rdfs:label  "Khofifah Indar Parawansa" .
+
+:SjafrieSjamsoeddin  rdfs:label  "Sjafrie Sjamsoeddin" .
+
+:SandiagaUno  rdfs:label  "Sandiaga Uno" .
+
+:SusiloBambangYudhoyono
+        rdfs:label  "Susilo Bambang Yudhoyono" .
+
+:KepalaBadanRisetdanInovasiNasional
+        rdfs:label          "Kepala Badan Riset dan Inovasi Nasional" ;
+        v:pemegang_jabatan  [ v:jabatan_mulai  "2021-04-28"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :LaksanaTriHandoko ;
+                              v:status         "Petahana"
+                            ] .
+
+:Presiden  rdfs:label       "Presiden" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2004-10-20"^^xsd:date ;
+                              v:jabatan_selesai  "2009-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SusiloBambangYudhoyono
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Demokrat ;
+                              v:jabatan_mulai    "2009-10-20"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :SusiloBambangYudhoyono
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :PDI-P ;
+                              v:jabatan_mulai    "2014-10-20"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :JokoWidodo
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :PDI-P ;
+                              v:jabatan_mulai  "2019-10-20"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :JokoWidodo ;
+                              v:status         "Petahana"
+                            ] .
+
+:AbdurrahmanMohammadFachir
+        rdfs:label  "Abdurrahman Mohammad Fachir" .
+
+:JusufAnwar  rdfs:label  "Jusuf Anwar" .
+
+:KusmayantoKadiman  rdfs:label  "Kusmayanto Kadiman" .
+
+:LuhutBinsarPanjaitan
+        rdfs:label  "Luhut Binsar Panjaitan" .
+
+:PramonoAnung  rdfs:label  "Pramono Anung" .
+
+:BudiGunadiSadikin  rdfs:label  "Budi Gunadi Sadikin" .
+
+:MuhammadMaftuhBasyuni
+        rdfs:label  "Muhammad Maftuh Basyuni" .
+
+:MenteriNegaraKomunikasidanInformatika
+        rdfs:label          "Menteri Negara Komunikasi dan Informatika" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2004-10-21"^^xsd:date ;
+                              v:jabatan_selesai  "2005-01-31"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatu ;
+                              v:pejabat          :SofyanDjalil
+                            ] .
+
+:MenteriNegaraPemberdayaanPerempuandanPerlindunganAnak
+        rdfs:label          "Menteri Negara Pemberdayaan Perempuan dan Perlindungan Anak" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2009-10-22"^^xsd:date ;
+                              v:jabatan_selesai  "2011-10-19"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :LindaAmaliaSari
+                            ] .
+
+:ErickThohir  rdfs:label  "Erick Thohir" .
+
+:MenteriBadanUsahaMilikNegara
+        rdfs:label          "Menteri Badan Usaha Milik Negara" ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2011-10-19"^^xsd:date ;
+                              v:jabatan_selesai  "2014-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetIndonesiaBersatuII ;
+                              v:pejabat          :DahlanIskan
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi         :Nonpartai ;
+                              v:jabatan_mulai    "2014-10-27"^^xsd:date ;
+                              v:jabatan_selesai  "2019-10-20"^^xsd:date ;
+                              v:kabinet          :KabinetKerja ;
+                              v:pejabat          :RiniSoemarno
+                            ] ;
+        v:pemegang_jabatan  [ v:afiliasi       :Nonpartai ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :ErickThohir ;
+                              v:status         "Petahana"
+                            ] .
+
+:MenteriKoordinatorBidangKemaritimandanInvestasi
+        rdfs:label          "Menteri Koordinator Bidang Kemaritiman dan Investasi" ;
+        v:pemegang_jabatan  [ v:afiliasi       :Golkar ;
+                              v:jabatan_mulai  "2019-10-23"^^xsd:date ;
+                              v:kabinet        :KabinetIndonesiaMaju ;
+                              v:pejabat        :LuhutBinsarPanjaitan ;
+                              v:status         "Petahana"
+                            ] .

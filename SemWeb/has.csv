@@ -1,0 +1,337 @@
+Name,id,Label
+San Francisco,Q62,"consolidated city and county in California, United States"
+Philadelphia,Q1345,"largest city in Pennsylvania, United States"
+Boston,Q100,"capital and largest city of Massachusetts, United States"
+Los Angeles,Q65,"largest city in California, United States of America"
+Denver,Q16554,"capital and largest city of Colorado, United States"
+New York City,Q60,most populous city in the United States
+Everywhere,Q5418171,1987 single by Fleetwood Mac
+Wilmington,Q174224,"city in and county seat of New Castle County, Delaware, United States"
+Austin,Q16559,"capital city of Texas, United States"
+San Diego,Q16552,"city in San Diego County, California, United States; second-largest city in California"
+London,Q84,capital and largest city of the United Kingdom
+Santa Clara,Q159260,"city in Santa Clara County, California, United States"
+San Mateo,Q169943,"city in San Mateo County, California, United States"
+Brooklyn,Q18419,"borough of New York City, New York, United States"
+Milpitas,Q927510,"city in Santa Clara County, California, United States"
+Campbell,Q2665383,family name
+Palo Alto,Q47265,"city in Santa Clara County, California, United States"
+Detroit,Q12439,"city in and county seat of Wayne County, Michigan, United States"
+San Francisco,Q62,"consolidated city and county in California, United States"
+Helsinki,Q1757,capital and most populous city of Finland
+Boca Raton,Q29422,"city in Palm Beach County, Florida, United States"
+Netanya,Q192225,city in Israel
+Toronto,Q172,"capital and largest city of the province of Ontario, Canada"
+Royal Borough of Greenwich,Q693450,royal borough in the London Region in England
+South Burlington,Q26065,"city in Chittenden County, Vermont, United States"
+Southern,Q1258373,train operating company in the United Kingdom
+Orlando,Q49233,"city in and county seat of Orange County, Florida, United States"
+Burlingame,Q986867,"city in San Mateo County, California, United States"
+Santa Monica,Q47164,"beachfront city in Los Angeles County, California, United States"
+Redwood City,Q505549,"city in San Mateo County, California, United States"
+Columbus,Q16567,"capital city of Ohio, USA"
+Scottsdale,Q49221,"city in Maricopa County, Arizona, United States"
+Miami,Q8652,"city in Miami-Dade County, Florida, United States"
+Dallas,Q16557,"city in Texas, United States"
+Fresno,Q43301,"county seat of Fresno County, California, United States"
+Ra'anana,Q309164,city in Israel
+Mountain View,Q486860,"city in Santa Clara County, California, United States"
+Tel Aviv,Q33935,city in Israel
+"University of California, Irvine",Q868421,"public research university in Irvine, California, United States"
+Vernier,Q63922,"municipality in the canton Geneve, Switzerland"
+Seattle,Q5083,"city in and county seat of King County, Washington, United States"
+Torrance,Q489197,"city in Los Angeles County, California, United States"
+Abu Dhabi,Q1519,capital city of the United Arab Emirates
+Bangalore,Q1355,"city in Karnataka, India"
+Oakland,Q17042,"city and county seat of Alameda County, California, United States"
+Culver City,Q493378,"city in Los Angeles County, California, United States"
+Amsterdam,Q727,capital and most populous city of the Netherlands
+Tampa,Q49255,"city in Florida, United States"
+Bellevue,Q214164,"city in the Eastside region of King County, Washington, United States"
+West End,Q460735,district of Central London
+Sydney,Q3130,"capital city of New South Wales, Australia"
+Jersey City,Q26339,"city in New Jersey, United States"
+Santa Barbara,Q159288,"city in California, United States"
+Las Vegas,Q23768,"city and county seat of Clark County, Nevada, United States"
+Brisbane,Q34932,"capital city of Queensland, Australia"
+Nashville,Q23197,"consolidated city-county in Davidson County, Tennessee, United States, and the state capital of Tennessee"
+Croix,Q239091,"commune in Nord, France"
+Stamford,Q49169,"city in Fairfield County, Connecticut, United States"
+Arlington County,Q107126,"county in Virginia, United States; part of Washington metropolitan area"
+Zürich,Q72,"capital of the canton of Zürich, Switzerland"
+Lehi,Q1010595,"city in Utah County, Utah, United States"
+Singapore,Q334,sovereign island country and city-state in maritime Southeast Asia
+Burlington,Q31058,"city in Chittenden County, Vermont, United States"
+Tempe,Q51685,"city in Maricopa County, Arizona, United States"
+Oulu,Q47048,city in the region of Northern Ostrobothnia in Finland
+Baltimore,Q5092,"city in Maryland, United States"
+Lincoln,Q28260,"city in and the county seat of Lancaster County, Nebraska, United States, that is also the state capital"
+Los Altos,Q864124,"city in Santa Clara County, California, United States"
+Waterloo,Q639408,"city in Ontario, Canada"
+Fort Lee,Q1013261,"borough in Bergen County, New Jersey, United States of America"
+"University of California, Berkeley",Q168756,"public university in Berkeley, California"
+Petah Tikva,Q190828,city in Israel
+Southern Min,Q36495,branch of the Min Chinese language
+Mahé,Q219642,largest island of Seychelles
+Brookline,Q49142,"town in Massachusetts, United States"
+Venice,Q641,"capital city of Veneto, Italy"
+Boulder,Q192517,"city in Colorado, United States"
+Mumbai,Q1156,"capital city in Maharashtra, India"
+North Richland Hills,Q26489,"city in Tarrant County, Texas, United States"
+Lincolnshire,Q23090,ceremonial county in the east of England
+Chennai,Q1352,"city and state capital of Tamil Nadu, India"
+Vienna,Q1741,capital of and state in Austria
+"Washington, D.C.",Q61,capital city of the United States of America
+Royal Palm Beach,Q2385234,"village in Palm Beach County, Florida, United States of America"
+St. Louis,Q38022,"independent city in Missouri, United States"
+Jacksonville,Q16568,"city in Florida, United States"
+Munich,Q1726,"capital and most populous city of Bavaria, Germany"
+Vancouver,Q24639,"largest city in British Columbia, Canada"
+New Delhi,Q987,capital city of India
+Seville,Q8717,"municipality of Andalusia, Spain"
+Pune,Q1538,"metropolis in Maharashtra, India"
+Ghent,Q1296,"city in the province of East Flanders, Belgium"
+Stockholm,Q1754,capital and largest city of Sweden
+Reno,Q49225,"city in and county seat of Washoe County, Nevada, United States"
+Giza,Q81788,City in Egypt
+Karachi,Q8660,"provincial capital of Sindh, Pakistan"
+Dyersburg,Q1268670,"city and the county seat of Dyer County, Tennessee, United States"
+Paris,Q90,capital of France
+Dublin,Q1761,capital and largest city of Ireland
+Frankfurt,Q1794,"city in Hesse, Germany"
+Gurgaon,Q238508,"City in Haryana, India"
+Fremont,Q49220,"city in Alameda County, California, United States"
+Cologne,Q365,"most populous city in North Rhine-Westphalia, Germany"
+Berlin,Q64,"federated state, capital and largest city of Germany"
+Ciudad de MÃ©xico,None,None
+Calgary,Q36312,"city in Alberta, Canada"
+Harju County,Q180200,county of Estonia
+Chattanooga,Q186702,"city in and county seat of Hamilton County, Tennessee, United States"
+Morrisville,Q2028159,"town in Wake County, North Carolina, United States"
+University of Cambridge,Q35794,"collegiate public research university in Cambridge, England, United Kingdom"
+Beijing,Q956,capital city of China
+Panama City,Q3306,capital of Panama
+Serilingampally Mandal,Q65319583,"mandal in Rangareddy district, Telangana"
+Lewisburg,Q1185021,"borough in Union County, Pennsylvania, United States"
+Lakeland North,Q1503763,"census designated place in King County, Washington, United States"
+Oslo,Q585,capital city of Norway
+Atlanta,Q23556,"capital city of Georgia, United States"
+Loveland,Q843993,"city in Clermont, Hamilton, and Warren counties, Ohio, United States"
+Charlotte,Q16565,"city in and county seat of Mecklenburg County, North Carolina, United States"
+Burnaby,Q244025,"city in British Columbia, Canada"
+Port Washington,Q1399190,"hamlet in New York, United States"
+Chicago,Q1297,"city and county seat of Cook County, Illinois, United States of America"
+Menlo Park,Q74195,"city at the eastern edge of San Mateo County, in the San Francisco Bay Area of California, United States"
+Louisville,Q43668,"county seat of Jefferson County, Kentucky, United States"
+Mexico City,Q1489,capital and largest city of Mexico
+Sunnyvale,Q208459,"city in Santa Clara County, California, United States"
+Yehud,Q1000887,city in Israel
+Fairfield,Q754635,"town in Fairfield County, Connecticut, United States"
+Milan,Q490,Italian commune and capital city of Lombardy
+Grove City,Q590713,"city in Franklin County, Ohio, United States"
+County Kilkenny,Q180231,county in Ireland
+Chapinero,Q2647973,"locality of the Capital District of Bogotá, Colombia"
+Phoenix,Q10441,minor constellation in the southern sky
+Milton Keynes,Q204234,"city in Buckinghamshire, England, United Kingdom"
+San Leandro,Q851034,"city in Alameda County, California, United States"
+Chemnitz,Q2795,city in Germany
+Navi Mumbai,Q61445,Satellite city of Mumbai
+Northbrook,Q570986,"village in Illinois, United States"
+Indio,Q838789,"city in Riverside County, California, United States"
+Vaduz,Q1844,capital of Liechtenstein
+Spokane Valley,Q988065,"city in Washington, United States of America"
+Dover,Q179224,"town and major ferry port in Kent, South East England"
+Beverly Hills,Q127856,"city in Los Angeles County, California, United States"
+Santa Catarina,Q41115,state in the South Region of Brazil
+Blue Ash,Q885619,"city in Hamilton County, Ohio, United States"
+Chandler,Q49272,"city in Maricopa County, Arizona, United States"
+Madrid,Q2807,municipality and capital of Spain
+Bruchsal,Q7059,"town in Baden-Württemberg, Germany"
+London-UK,None,None
+Lawrenceville,Q970174,"city in and county seat of Gwinnett County, Georgia, United States"
+Indianapolis,Q6346,capital city of the U.S. state of Indiana and the seat of Marion County
+Bloomfield Hills,Q885355,"city ​​in Oakland County, Michigan, United States"
+Mississauga,Q50816,"city in Ontario, Canada"
+Salt Lake City,Q23337,"city in and county seat of Salt Lake County, Utah, United States and the capital of Utah"
+Brentwood,Q909993,town and the principal settlement of the Borough of Brentwood in England
+Durham,Q49229,"county seat of Durham County, North Carolina, United States"
+Indore,Q66616,"city in Madhya Pradesh, India"
+Westport,Q586762,"town in Fairfield County, Connecticut, United States"
+Jakarta,Q3630,capital city and smallest province of Indonesia
+Irving,None,None
+Wolf Trap,Q1376367,"census designated place in Fairfax County, Virginia, United States"
+Monterrey,Q81033,capital of the Mexican state of Nuevo Leon
+Nairobi,Q3870,capital city of Kenya
+Key Largo,Q136618,"census designated place in Florida, United States"
+Draper,Q482888,"city in Salt Lake and Utah counties in Utah, United States"
+Lenexa,Q992536,"city in Johnson County, Kansas, United States"
+Herndon,Q1373962,"town in Virginia, United States"
+Greenwood Village,Q1003256,"city in Arapahoe County, Colorado, United States"
+New Delhi,Q987,capital city of India
+Narbonne,Q6555,"commune in Aude, France"
+Bromsgrove,Q1190876,"town in Worcestershire, England, UK"
+Fayetteville,Q331104,"city in Cumberland County, North Carolina, United States"
+Puri,Q207799,"city in Odisha, India"
+Ann Arbor,Q485172,"county seat of Washtenaw County, Michigan, United States"
+Seattle Area Archivists,Q107959275,professional society in United States
+Raleigh-Durham Triangles,Q17066059,1970–71 name of the Durham Bulls baseball team
+Lawrence Livermore National Laboratory,Q519826,"federal research institute in Livermore, California, United States"
+Pearland,Q982550,city in the U.S. state of Texas
+Pasadena,Q485176,"city in Los Angeles County, California, United States"
+Round Rock,Q128334,"city in Travis and Williamson counties in Texas, United States"
+Quito,Q2900,capital of Ecuador
+Ottawa,Q1930,capital city of Canada
+Sandy Springs,Q914884,"city in Fulton County, Georgia, United States"
+Minneapolis,Q36091,"city in and county seat of Hennepin County, Minnesota, United States"
+Seoul,Q8684,capital of South Korea
+Apache Junction,Q79829,"city in Pinal and Maricopa counties in Arizona, United States"
+Franklin Lakes,Q183312,"borough in Bergen County, New Jersey, United States"
+Clinton Township,Q2550281,"township in Macomb County, Michigan, United States"
+Los Altos Hills,Q868677,"city in Santa Clara County, California, United States"
+212631 Hsinchu,Q42897871,asteroid
+Noida,Q278204,"City in Uttar Pradesh, India"
+Van Nuys,Q769446,"district in Los Angeles, California, United States"
+Hollister,Q936919,"city and the county seat of San Benito County, California, United States"
+Thousand Oaks,Q208447,"city in Ventura County, California, United States"
+British Virgin Islands,Q25305,British overseas territory in the Caribbean
+Scoresby,Q1333078,lunar impact crater
+Delhi,Q1353,Indian metropolis that includes New Delhi
+Johannesburg,Q34647,largest city in South Africa
+Cleveland,Q37320,"city in and county seat of Cuyahoga County, Ohio, United States"
+Waltham,Q49190,"city in Middlesex County, Massachusetts, United States"
+Hanover,Q1715,capital city of the German federated state of Lower Saxony
+Jefferson City,Q28180,"city in Cole and Callaway counites in Missouri, United States; capital city of Missouri"
+Delanco,Q5253121,"train station in Delanco, New Jersey"
+plantation,Q188913,"artificially established forest, farm or estate, where crops are grown for sale"
+Traverse City,Q984544,"city ​​and county seat of Grand Traverse, Michigan, United States"
+Lucknow,Q47916,"capital of Uttar Pradesh, India"
+Victoria,Q36687,state of Australia
+St. Louis Park,Q988741,"city in Hennepin County, Minnesota, United States"
+Cabazon,Q2805009,"census-designated place in Riverside County, California, United States"
+Mill Valley,Q846413,"city in Marin County, California, United States"
+Walnut Creek,Q493261,"city in Contra Costa County, California, United States"
+Greensboro,Q49238,"city in North Carolina, United States of America"
+Saratoga,Q927163,"city in Santa Clara County, California, USA"
+Freeport,Q202828,"city and county seat and largest city of Stephenson County, Illinois, United States"
+Winter Park,Q986641,"city in Orange County, Florida, United States"
+Ballenger Creek,Q753926,"town in Frederick County, Maryland, United States"
+Plymouth,Q43382,"city in Devon, England"
+Kansas City,Q41819,"city in Missouri, United States"
+San Jose,Q16553,"county seat of Santa Clara County, California, United States"
+Santa Ana,Q49244,"county seat and city of Orange County, California, United States"
+Kuwait City,Q35178,capital of Kuwait
+El Segundo,Q983859,"city in Los Angeles County, California, United States"
+Ojibwe,Q255872,group of indigenous peoples in North America
+Richmond,Q43421,"capital city of Virginia, United States of America"
+Schenectady,Q331380,"county seat of Schenectady County, New York, United States"
+Westerville,Q2233932,"city in Ohio, United States"
+Elgin,Q841074,"former cathedral city and Royal Burgh in Moray, Scotland, UK"
+Alexandria,Q87,City in Egypt
+Rosslyn,Q7369880,"neighborhood in Arlington, Virginia, United States"
+Bangalore,Q1355,"city in Karnataka, India"
+Hyderabad,Q1361,"capital of Telangana, India"
+Arendal,Q57919,"municipality in Agder, Norway"
+Vilnius,Q216,capital and largest city of Lithuania
+Henderson,Q49267,"city in Clark County, Nevada, United States"
+Portland,Q6106,"city in Oregon, United States"
+Manhattan,Q11299,"borough of New York City, New York, United States"
+South Jordan,Q52467,"city in Salt Lake County, Utah, United States"
+Virginia Beach,Q49259,"independent city in Virginia, United States"
+Newport Beach,Q268873,"city in Orange County, California, United States"
+"University of California, Davis",Q129421,"public university in Davis, California; part of the University of California system"
+Windhoek,Q3935,capital of the Republic of Namibia
+Bangkok,Q1861,capital of Thailand
+avenue,Q7543083,"wide, straight, usually tree-lined road or approach"
+Sacramento,Q18013,"capital city of California, United States"
+Coral Springs,Q505557,"city in Broward County, Florida, United States"
+Brea,Q302612,"city ​​in northern Orange County, California, United States"
+Buffalo,Q40435,"city and county seat of Erie County, New York, United States"
+Orem,Q52468,"city in Utah County, Utah, United States"
+St. Louis,Q38022,"independent city in Missouri, United States"
+Mansfield Town F.C.,Q18522,"association football club in Mansfield, England"
+Oakdale,Q984607,"city in Stanislaus County, California, United States"
+Isaac Newton,Q935,English mathematician and physicist (1642–1727)
+Cincinnati,Q43196,"city in Ohio, United States; county seat of Hamilton County"
+Silver Spring,Q755741,"community in Montgomery County, Maryland, United States"
+Alpharetta,Q1003649,"city in north Fulton County, Georgia, United States"
+The Hague,Q36600,"city and municipality in the Netherlands, seat of the Dutch government"
+Sierre,Q68297,"town in Valais, Switzerland"
+Gurgaon,Q238508,"City in Haryana, India"
+Houston,Q16555,"city in Texas, United States"
+Baton Rouge,Q28218,"capital of Louisiana, United States and seat of East Baton Rouge Parish"
+Fort Lauderdale,Q165972,"city ​​in Broward county, Florida, United States"
+Tempe,Q51685,"city in Maricopa County, Arizona, United States"
+Farrington Gurney,Q2691996,village in the United Kingdom
+Limassol,Q185632,"city in the Limassol District, Cyprus"
+Gaithersburg,Q752719,"city in Montgomery County, Maryland, United States"
+New Territories,Q596660,region in Hong Kong
+Costa Mesa,Q499196,"city in Orange County, California, United States"
+Hayward,Q491114,"city in Alameda County, California, United States"
+Somerville,Q49199,"city in Middlesex County, Massachusetts, United States"
+Worcester,Q49179,"county seat city in Worcester County, Massachusetts, United States"
+Bartlett,Q15785662,family name
+Montreal,Q340,"largest city in Quebec, Canada"
+American Fork,Q464598,"city in Utah County, Utah, United States"
+Redmond,Q223718,"city in King County, Washington, United States of America"
+Charleston,Q47716,largest city in the U.S. state of South Carolina
+Emeryville,Q499178,"city in Alameda County, California, United States"
+Pleasanton,Q747444,"city in Alameda County, California, United States"
+Leawood,Q1947796,"city in Kansas, United States"
+New York City,Q60,most populous city in the United States
+King of Prussia,Q1186442,"census-designated place in Montgomery County, Pennsylvania, United States"
+Perth,Q3183,"capital city of Western Australia, Australia"
+Falconer,Q16390438,family name
+Chicago,Q1297,"city and county seat of Cook County, Illinois, United States of America"
+Kayseri,Q48338,city in Turkey
+Milwaukee,Q37836,"city in and county seat of Milwaukee County, Wisconsin, United States"
+David Bowie,Q5383,English musician and actor (1947–2016)
+Winnipeg,Q2135,"capital and largest city of the province of Manitoba, Canada"
+Kraków,Q31487,capital city of Lesser Poland Voivodeship in southern Poland
+Albany,Q24861,"capital city of the State of New York, United States, and seat of Albany County"
+Hawthorne,Q688596,"city in southwestern Los Angeles County, California, United States"
+Gainesville,Q487999,"city and county seat of Alachua County, Florida, United States"
+Elkhart,Q2008706,"city in Elkhart County, Indiana, United States"
+Rockville,Q327022,"city in Montgomery County, Maryland, United States"
+Nashua,Q48274,"city in southern New Hampshire, United States"
+Cape Town,Q5465,"city in the Western Cape, South Africa"
+Pittsburgh,Q1342,"city and county seat in Allegheny County, United States"
+Ä°stanbul,None,None
+Milton,Q739428,"town in Massachusetts, United States"
+São Paulo,Q174,most populous city in Brazil
+El Paso,Q16562,"city in and county seat of El Paso County, Texas, United States"
+California,Q99,state of the United States of America
+Sherman Oaks,Q1015874,"neighborhood in Los Angeles, California, United States"
+Sector 1,Q2162427,sector of Bucharest
+Marina del Rey,Q988140,"census designated place in Los Angeles County, California, United States"
+Mechanicsburg,Q1183440,"borough in Cumberland County, Pennsylvania, USA"
+Roseville,Q491340,"city in Placer County, California, United States"
+Chesterfield,Q823600,"market town and unparished area in Derbyshire, England"
+Uxbridge,Q3552816,"town in west London, England"
+Coppell,Q982554,"city in Dallas County, Texas, United States"
+Winston-Salem,Q49227,"city in and the county seat of Forsyth County, North Carolina, United States"
+Altrincham F.C.,Q18660,"association football club in Altrincham, England"
+Oakwood Village,None,None
+South San Francisco,Q927122,"city in San Mateo County, California, United States"
+Yosemite Lakes,Q3306227,"census-designated place in Madera County, California"
+Shaker Heights,Q1065497,"city in Cuyahoga County, Ohio, United States"
+Sausalito,Q828729,"city in Marin County, California, United States"
+Carson City,Q40881,"independent city in and capital of Nevada, United States"
+Hoboken,Q138578,"city in Hudson County, New Jersey, United States"
+Nantes,Q12191,"city in Loire-Atlantique, Pays de la Loire, France"
+Enid,Q984361,"city in and county seat of Garfield County, Oklahoma, United States"
+Framingham,Q988568,"city in Middlesex County, Massachusetts, United States"
+Agoura Hills,Q395793,"city in Los Angeles County, California, United States"
+Natick,Q367070,"town in Massachusetts, United States"
+Mount Carmel,Q185318,Mountain in Israel
+San Ramon,Q605472,"city in Contra Costa County, California, United States"
+Monrovia,Q3748,capital city of Liberia
+Solana Beach,Q383278,"city in San Diego County, California, United States"
+Auckland,Q37100,"city on the North Island, New Zealand"
+gold,Q208045,color
+Copenhagen Open,Q299499,tennis tournament
+Knoxville,Q185582,"county seat of Knox County, Tennessee, United States"
+Clement I,Q42887,4th Pope of the Catholic Church
+Burnsville,Q736586,"city in Minnesota, United States"
+Toledo,Q5836,municipality in central Spain
+Lincolnia,Q1374806,"census designated place in Fairfax County, Virginia, United States"
+monument,Q4989906,"imposing structure created to commemorate a person or event, or used for that purpose"

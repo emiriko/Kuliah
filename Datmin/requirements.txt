@@ -1,0 +1,7 @@
+pyviz
+networkx
+tqdm
+requests
+bs4
+matplotlib
+scipy

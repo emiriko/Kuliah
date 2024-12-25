@@ -1,0 +1,257 @@
+# Nomor 1
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+ex:PersonShape a sh:NodeShape ;
+    sh:targetClass foaf:Person ;
+    sh:property [
+       sh:path foaf:birthday ;
+       sh:datatype xsd:date ;
+    ] .
+
+# Nomor 2 (we dont need to change the data right?)
+
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+ex:PersonShape a sh:NodeShape ;
+    sh:targetClass foaf:Person ;
+    sh:property [
+       sh:path foaf:birthday ;
+       sh:datatype xsd:date ;
+    ] ;
+
+	sh:property [
+       sh:path foaf:name ;
+       sh:datatype xsd:string ;
+    ] ;
+	sh:property [
+       sh:path foaf:familyName ;
+       sh:datatype xsd:string ;
+    ] ;
+	sh:property [
+       sh:path foaf:givenName ;
+       sh:datatype xsd:string ;
+    ] .
+
+# Nomor 3
+
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+ex:PersonShape a sh:NodeShape ;
+    sh:targetClass foaf:Person ;
+    sh:property [
+       sh:path foaf:birthday ;
+       sh:datatype xsd:date ;
+    ] ;
+	sh:property [
+    	sh:path [ sh:alternativePath (foaf:givenName foaf:familyName foaf:name) ] ;
+        sh:datatype xsd:string ;
+   	] .
+
+
+# Nomor 4
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:LaureateShape a sh:NodeShape ;
+    sh:targetClass nobel:Laureate ;
+	sh:property [
+    	sh:path dbo:affiliation ;
+        sh:class dbo:University ;
+        sh:minCount 1 ;
+    ] .
+
+
+# Nomor 5
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:LaureateShape a sh:NodeShape ;
+    sh:targetClass nobel:Laureate ;
+	sh:property [
+    	sh:path dbo:affiliation ;
+		sh:qualifiedValueShape [
+         	sh:class dbo:University ;
+        ] ;
+                
+        sh:qualifiedMinCount 1 ;
+    ] .
+
+# Nomor 6
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+
+ex:LaureateShape a sh:NodeShape ;
+    sh:targetClass nobel:Laureate ;
+	sh:property [
+    	sh:path dbo:affiliation ;
+		sh:qualifiedValueShape [
+         	sh:class dbo:University ;
+        ] ; 
+        sh:qualifiedMinCount 1 ;
+    ] ;
+
+	sh:property [
+    	sh:path dbp:dateOfBirth ;
+		sh:equals foaf:birthday ;
+    ] .
+
+# Nomor 7
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+
+ex:LaureateShape a sh:NodeShape ;
+    sh:targetClass nobel:Laureate ;
+	sh:property [
+    	sh:path dbo:affiliation ;
+		sh:qualifiedValueShape [
+         	sh:class dbo:University ;
+        ] ; 
+        sh:qualifiedMinCount 1 ;
+    ] ;
+	
+	sh:or (
+      [
+        sh:property [
+          sh:or (
+              [
+                sh:path dbp:dateOfBirth ;
+                sh:maxCount 0;
+              ]
+              [
+                sh:path foaf:birthday ;
+                sh:maxCount 0;          
+              ]
+          	);
+          ]
+      ]
+      [
+        sh:property [
+            sh:path dbp:dateOfBirth ;
+            sh:equals foaf:birthday ;
+      	]
+      ]
+    ) .
+
+# Nomor 8
+
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+nobel:Laureate a sh:NodeShape ;
+    sh:property [
+       sh:path [
+           sh:alternativePath ( foaf:name foaf:givenName foaf:familyName );
+       ] ;
+       sh:pattern "^[^_\\d]{2,}$"
+    ] .
+
+# Nomor 9
+
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+nobel:Laureate a sh:NodeShape ;
+    sh:property [
+       sh:path [
+           sh:alternativePath ( foaf:name foaf:givenName foaf:familyName );
+       ] ;
+       sh:pattern "^[^_\\d]{2,}$"
+    ] ;
+
+	sh:property [
+       sh:path foaf:gender ;
+       sh:in ("male" "female") ;
+    ] .
+
+# Nomor 10
+
+@prefix ex: <http://example.org#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+nobel:Laureate a sh:NodeShape ;
+    sh:property [
+       sh:path [
+           sh:alternativePath ( foaf:name foaf:givenName foaf:familyName );
+       ] ;
+       #sh:pattern "^[^_\\d]{2,}$"
+    ] ;
+
+	sh:property [
+       sh:path foaf:gender ;
+       sh:in ("male" "female") ;
+    ] .
+
+nobel:LaureateAward a sh:NodeShape ;
+	sh:property [
+       sh:path nobel:motivation ;
+       sh:minCount 1;
+       sh:pattern ".{10}" ;
+       sh:languageIn ("en" "sv") ;
+       sh:uniqueLang true ;
+    ] .

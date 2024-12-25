@@ -1,0 +1,783 @@
+{
+	"info": {
+		"_postman_id": "5a6a67e0-5e55-4132-a292-f5e412d5bab9",
+		"name": "Backend API Documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25949521",
+		"_collection_link": "https://www.postman.com/supply-administrator-61638669/workspace/ulascan/collection/36341500-5a6a67e0-5e55-4132-a292-f5e412d5bab9?action=share&source=collection_link&creator=25949521"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"name\": \"User\",\r\n    \"email\": \"user@gmail.com\",\r\n    \"password\": \"user123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/user",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"user"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\t\"name\": \"User\",\r\n    \"email\": \"user@gmail.com\",\r\n    \"password\": \"user123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/user",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"user"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Jun 2024 07:17:38 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "153"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"message\": \"success create user\",\n    \"data\": {\n        \"id\": \"eb068883-0903-413d-96c6-b6e589f6e69e\",\n        \"name\": \"User\",\n        \"email\": \"user@gmail.com\",\n        \"role\": \"user\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"success login\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.collectionVariables.set(\"token\", jsonData.data.token);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"email\": \"user@gmail.com\",\r\n  \"password\": \"user123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/user/login",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\t\"email\": \"user@gmail.com\",\r\n  \"password\": \"user123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://34.101.79.15/api/user/login",
+									"protocol": "http",
+									"host": [
+										"34",
+										"101",
+										"79",
+										"15"
+									],
+									"path": [
+										"api",
+										"user",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Jun 2024 07:20:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "310"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"message\": \"success login\",\n    \"data\": {\n        \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZWIwNjg4ODMtMDkwMy00MTNkLTk2YzYtYjZlNTg5ZjZlNjllIiwicm9sZSI6InVzZXIiLCJpc3MiOiJUZW1wbGF0ZSIsImV4cCI6MTcxODQ0MzIxNSwiaWF0IjoxNzE4NDM2MDE1fQ.G4e_PauL2NYDJAkBOvjhNxEUtWIEoFYQ47imd82TW2M\",\n        \"role\": \"user\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Me",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/user/me",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"user",
+								"me"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Me",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://34.101.79.15/api/user/me",
+									"protocol": "http",
+									"host": [
+										"34",
+										"101",
+										"79",
+										"15"
+									],
+									"path": [
+										"api",
+										"user",
+										"me"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Jun 2024 07:20:33 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "150"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"message\": \"success get user\",\n    \"data\": {\n        \"id\": \"eb068883-0903-413d-96c6-b6e589f6e69e\",\n        \"name\": \"User\",\n        \"email\": \"user@gmail.com\",\n        \"role\": \"user\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Analysis",
+			"item": [
+				{
+					"name": "Get Analysis (Auth)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/ml/analysis?product_url=https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"ml",
+								"analysis"
+							],
+							"query": [
+								{
+									"key": "product_url",
+									"value": "https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads",
+									"description": "Tokopedia Product URL"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Analysis (Auth)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/ml/analysis?product_url=https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"ml",
+										"analysis"
+									],
+									"query": [
+										{
+											"key": "product_url",
+											"value": "https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Jun 2024 07:23:44 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"message\": \"success get reviews\",\n    \"data\": {\n        \"product_name\": \"Tropicana Slim Cafe Latte (10 sch) - Kopi Bebas Gula\",\n        \"product_description\": \"Tropicana Slim Cafe Latte adalah paduan kopi susu yang sempurna dengan rasa manis yang bisa dinikmati tanpa rasa khawatir karena diformulasikan tanpa penambahan gula pasir sehingga aman untuk diabetesi dan cocok untuk diet. \\nSemangati harimu dengan secangkir Tropicana Slim Cafe Latte!\\n\\nMengapa Tropicana Slim Cafe Latte?\\n- Rasa kopi susu yang nikmat\\n- Tanpa penambahan gula pasir \\n- Aman untuk diabetesi dan cocok untuk diet\\n- Lebih rendah kafein, aman untuk ibu hamil dan menyusui.\\n\\nCara Penyajian dan Petunjuk Konsumsi :\\nLarutkan 1 sachet Tropicana Slim Cafe Latte dalam 200 ml air hangat.  Aduk merata, dan secangkir kopi hangat yang nikmat lezat pun siap Anda nikmati.\\n\\nNutrimart merekomendasikan Tropicana Slim Cafe Latte untuk kamu yang:\\n - Mencari KOPI NIKMAT ala CAFE, TANPA GULA PASIR\\n - Memulai POLA HIDUP SEHAT dengan membatasi asupan gula\\n - MenJAGA KADAR GULA DARAH\\n - Memiliki DIABETES\\n - Menjalankan DIET\\n - Mementingkan KREDIBILITAS produk dengan pengalaman hampir 50 TAHUN\",\n        \"rating\": 100,\n        \"ulasan\": 100,\n        \"bintang\": 4.91,\n        \"image_urls\": [\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2023/7/26/e799c724-ed29-43dc-b723-2854421553f3.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/aef9ea0c-0e01-45f3-bc0f-8bc5b03dc581.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/26e86f2d-373b-46cb-bda9-1ab4bd427907.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/002e056c-cd07-4fbc-aefe-1f9a1d9ea739.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/07280c5d-b3de-4818-87be-440355233f6c.jpg\"\n        ],\n        \"shop_name\": \"NutriMart\",\n        \"shop_avatar\": \"https://images.tokopedia.net/img/cache/215-square/GAnVPX/2021/3/30/9ee6fbe9-1452-40f6-9b56-42a5bd14e5d5.png\",\n        \"count_negative\": 44,\n        \"count_positive\": 56,\n        \"packaging\": 76.190475,\n        \"delivery\": 90.90909,\n        \"admin_response\": 100,\n        \"product_condition\": 88,\n        \"summary\": \"Produk ini mendapatkan banyak ulasan positif, dengan banyak pembeli memuji rasa kopi yang enak dan kemasan yang aman. Pengiriman juga cepat dan responsif. Beberapa pembeli menganggap kopi ini terlalu manis, dan ada beberapa yang mengeluhkan dus produk yang kotor. Secara keseluruhan, produk ini direkomendasikan oleh banyak pembeli.\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Analysis (Guest)",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/ml/guest/analysis?product_url=https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"ml",
+								"guest",
+								"analysis"
+							],
+							"query": [
+								{
+									"key": "product_url",
+									"value": "https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads",
+									"description": "Tokopedia Product URL"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Analysis (Guest)",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/ml/guest/analysis?product_url=https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"ml",
+										"guest",
+										"analysis"
+									],
+									"query": [
+										{
+											"key": "product_url",
+											"value": "https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Jun 2024 07:22:21 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"message\": \"success get reviews\",\n    \"data\": {\n        \"product_name\": \"Tropicana Slim Cafe Latte (10 sch) - Kopi Bebas Gula\",\n        \"product_description\": \"Tropicana Slim Cafe Latte adalah paduan kopi susu yang sempurna dengan rasa manis yang bisa dinikmati tanpa rasa khawatir karena diformulasikan tanpa penambahan gula pasir sehingga aman untuk diabetesi dan cocok untuk diet. \\nSemangati harimu dengan secangkir Tropicana Slim Cafe Latte!\\n\\nMengapa Tropicana Slim Cafe Latte?\\n- Rasa kopi susu yang nikmat\\n- Tanpa penambahan gula pasir \\n- Aman untuk diabetesi dan cocok untuk diet\\n- Lebih rendah kafein, aman untuk ibu hamil dan menyusui.\\n\\nCara Penyajian dan Petunjuk Konsumsi :\\nLarutkan 1 sachet Tropicana Slim Cafe Latte dalam 200 ml air hangat.  Aduk merata, dan secangkir kopi hangat yang nikmat lezat pun siap Anda nikmati.\\n\\nNutrimart merekomendasikan Tropicana Slim Cafe Latte untuk kamu yang:\\n - Mencari KOPI NIKMAT ala CAFE, TANPA GULA PASIR\\n - Memulai POLA HIDUP SEHAT dengan membatasi asupan gula\\n - MenJAGA KADAR GULA DARAH\\n - Memiliki DIABETES\\n - Menjalankan DIET\\n - Mementingkan KREDIBILITAS produk dengan pengalaman hampir 50 TAHUN\",\n        \"rating\": 100,\n        \"ulasan\": 100,\n        \"bintang\": 4.91,\n        \"image_urls\": [\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2023/7/26/e799c724-ed29-43dc-b723-2854421553f3.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/aef9ea0c-0e01-45f3-bc0f-8bc5b03dc581.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/26e86f2d-373b-46cb-bda9-1ab4bd427907.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/002e056c-cd07-4fbc-aefe-1f9a1d9ea739.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/07280c5d-b3de-4818-87be-440355233f6c.jpg\"\n        ],\n        \"shop_name\": \"NutriMart\",\n        \"shop_avatar\": \"https://images.tokopedia.net/img/cache/215-square/GAnVPX/2021/3/30/9ee6fbe9-1452-40f6-9b56-42a5bd14e5d5.png\",\n        \"count_negative\": 44,\n        \"count_positive\": 56,\n        \"packaging\": 71.43,\n        \"delivery\": 90.32,\n        \"admin_response\": 100,\n        \"product_condition\": 95.65,\n        \"summary\": \"Produk dinilai original, dengan rasa yang enak dan kemasan yang aman. Pengiriman umumnya cepat, namun beberapa ulasan mengeluhkan kurir yang kurang baik dalam mengantar paket. Beberapa pembeli merasa kopi ini terlalu manis, namun tetap disukai karena rendah kalori dan aman untuk diabetes.\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "History",
+			"item": [
+				{
+					"name": "Get Histories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/history?limit=10&page=1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"history"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "product_name",
+									"value": "tropicana",
+									"description": "Product name for filtering or search",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Histories",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/history?limit=10&page=1",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"history"
+									],
+									"query": [
+										{
+											"key": "limit",
+											"value": "10"
+										},
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "product_name",
+											"value": "tropicana",
+											"description": "Product name for filtering or search",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Jun 2024 07:25:43 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1013"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"message\": \"success get histories\",\n    \"data\": {\n        \"histories\": [\n            {\n                \"id\": \"0226cffd-b026-44d5-8193-4fe1c20344ea\",\n                \"url\": \"https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula\",\n                \"product_id\": \"502182312\",\n                \"product_name\": \"Tropicana Slim Cafe Latte (10 sch) - Kopi Bebas Gula\",\n                \"positive_count\": 56,\n                \"negative_count\": 44,\n                \"rating\": 100,\n                \"ulasan\": 100,\n                \"bintang\": 4.91,\n                \"packaging\": 76.190475,\n                \"delivery\": 90.90909,\n                \"admin_response\": 100,\n                \"product_condition\": 88,\n                \"content\": \"Produk ini mendapatkan banyak ulasan positif, dengan banyak pembeli memuji rasa kopi yang enak dan kemasan yang aman. Pengiriman juga cepat dan responsif. Beberapa pembeli menganggap kopi ini terlalu manis, dan ada beberapa yang mengeluhkan dus produk yang kotor. Secara keseluruhan, produk ini direkomendasikan oleh banyak pembeli.\",\n                \"user_id\": \"eb068883-0903-413d-96c6-b6e589f6e69e\",\n                \"created_at\": \"2024-06-15T07:23:44.081272Z\",\n                \"updated_at\": \"2024-06-15T07:23:44.081272Z\",\n                \"deleted_at\": null\n            }\n        ],\n        \"page\": 1,\n        \"pages\": 1,\n        \"limit\": 10,\n        \"total\": 1\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Get History By ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/history/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"history",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "0226cffd-b026-44d5-8193-4fe1c20344ea",
+									"description": "Analysis ID"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get History By ID",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/history/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"history",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "0226cffd-b026-44d5-8193-4fe1c20344ea",
+											"description": "Analysis ID"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 15 Jun 2024 07:26:36 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "853"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"message\": \"success get histories\",\n    \"data\": {\n        \"id\": \"0226cffd-b026-44d5-8193-4fe1c20344ea\",\n        \"user_id\": \"eb068883-0903-413d-96c6-b6e589f6e69e\",\n        \"product_id\": \"502182312\",\n        \"url\": \"https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula\",\n        \"rating\": 100,\n        \"ulasan\": 100,\n        \"bintang\": 4.91,\n        \"product_name\": \"Tropicana Slim Cafe Latte (10 sch) - Kopi Bebas Gula\",\n        \"positive_count\": 56,\n        \"negative_count\": 44,\n        \"packaging\": 76.190475,\n        \"delivery\": 90.90909,\n        \"admin_response\": 100,\n        \"product_condition\": 88,\n        \"content\": \"Produk ini mendapatkan banyak ulasan positif, dengan banyak pembeli memuji rasa kopi yang enak dan kemasan yang aman. Pengiriman juga cepat dan responsif. Beberapa pembeli menganggap kopi ini terlalu manis, dan ada beberapa yang mengeluhkan dus produk yang kotor. Secara keseluruhan, produk ini direkomendasikan oleh banyak pembeli.\"\n    }\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://34.101.79.15",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": ""
+		}
+	]
+}

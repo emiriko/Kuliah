@@ -1,0 +1,13 @@
+ID,FName,LName,House,Age,BirthDate
+1,Tyrion,Lannister,Lannister,27,0273-04-01
+2,Jaime,Lannister,Lannister,34,0266-02-21
+3,Cersei,Lannister,Lannister,34,0266-02-21
+4,Robb,Stark,Stark,,0283-10-13
+5,Jon,Snow,Stark,17,0283-12-25
+6,Sansa,Stark,Stark,14,0286-02-15
+7,Arya,Stark,Stark,11,0289-04-03
+8,Bran,Stark,Stark,10,0290-07-24
+9,Rickon,Stark,Stark,5,0295-01-02
+10,Rhaegar,Targaryen,Targaryen,,0259-09-12
+11,Viserys,Targaryen,Targaryen,,0276-05-05
+12,Daenerys,Targaryen,Targaryen,16,0284-06-14

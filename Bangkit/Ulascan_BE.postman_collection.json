@@ -1,0 +1,969 @@
+{
+	"info": {
+		"_postman_id": "0abb4851-10a0-4ec8-923a-d2b30aaf0de9",
+		"name": "Ulascan BE",
+		"description": "# 🚀 Get started here\n\nThis collection guides you through CRUD operations (GET, POST, PUT, DELETE), variables, and tests.\n\n## 🔖 **How to use this collection**\n\n#### **Step 1: Send requests**\n\nRESTful APIs allow you to perform CRUD operations using the POST, GET, PUT, and DELETE HTTP methods.\n\nThis collection contains each of these request types. Open each request and click \"Send\" to see what happens.\n\n#### **Step 2: View responses**\n\nObserve the response tab for status code (200 OK), response time, and size.\n\n#### **Step 3: Send new Body data**\n\nUpdate or add new data in \"Body\" in the POST request. Typically, Body data is also used in PUT and PATCH requests.\n\n```\n{\n    \"name\": \"Add your name in the body\"\n}\n\n```\n\n#### **Step 4: Update the variable**\n\nVariables enable you to store and reuse values in Postman. We have created a variable called `base_url` with the sample request [https://postman-api-learner.glitch.me](https://postman-api-learner.glitch.me). Replace it with your API endpoint to customize this collection.\n\n#### **Step 5: Add tests in the \"Tests\" tab**\n\nTests help you confirm that your API is working as expected. You can write test scripts in JavaScript and view the output in the \"Test Results\" tab.\n\n<img src=\"https://content.pstmn.io/b5f280a7-4b09-48ec-857f-0a7ed99d7ef8/U2NyZWVuc2hvdCAyMDIzLTAzLTI3IGF0IDkuNDcuMjggUE0ucG5n\">\n\n## 💪 Pro tips\n\n- Use folders to group related requests and organize the collection.\n- Add more scripts in \"Tests\" to verify if the API works as expected and execute flows.\n    \n\n## ℹ️ Resources\n\n[Building requests](https://learning.postman.com/docs/sending-requests/requests/)  \n[Authorizing requests](https://learning.postman.com/docs/sending-requests/authorization/)  \n[Using variables](https://learning.postman.com/docs/sending-requests/variables/)  \n[Managing environments](https://learning.postman.com/docs/sending-requests/managing-environments/)  \n[Writing scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25933027"
+	},
+	"item": [
+		{
+			"name": "Me",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{auth_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/user/me",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"user",
+						"me"
+					]
+				},
+				"description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
+			},
+			"response": [
+				{
+					"name": "Me",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/user/me",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"user",
+								"me"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 09 Jun 2024 05:38:45 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "152"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"success get user\",\n    \"data\": {\n        \"id\": \"f230e5d6-ecb0-44f4-98b5-ad3af27956f0\",\n        \"name\": \"user\",\n        \"email\": \"user@example.com\",\n        \"role\": \"user\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful POST request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Adi\",\n    \"email\": \"test@a.com\",\n    \"password\": \"asikasikjoss\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/user",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"user"
+					]
+				},
+				"description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
+			},
+			"response": [
+				{
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Adi\",\n    \"email\": \"test@a.com\",\n    \"password\": \"asikasikjoss\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/user",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"user"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 09 Jun 2024 05:38:51 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "148"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"success create user\",\n    \"data\": {\n        \"id\": \"6cf794d5-1e31-4717-9135-ea665cac8f2f\",\n        \"name\": \"Adi\",\n        \"email\": \"test@a.com\",\n        \"role\": \"user\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Parse the response body to a JavaScript object",
+							"var response = pm.response.json();",
+							"",
+							"// Check if the response contains the token",
+							"if (response.status && response.data && response.data.token) {",
+							"    // Set the token to an environment variable named \"authToken\"",
+							"    pm.environment.set(\"auth_token\", response.data.token);",
+							"",
+							"    // Log success message",
+							"    console.log(\"Token and role have been set to environment variables.\");",
+							"} else {",
+							"    console.log(\"Response does not contain token information.\");",
+							"}",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNWI1OTU1YzEtOWMzNi00NzNlLTgwMjQtMGI4NTk0YWExNGE3Iiwicm9sZSI6Im1vZGVyYXRvciIsImlzcyI6ImFkbWluIiwiZXhwIjoxNzA5NzM5ODAzLCJpYXQiOjE3MDk3MzI2MDN9.aoIegpayVngHut-m3yW0QzQhMVfzG46t9PCbPz-7oTY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"user@example.com\",\n    \"password\": \"123123123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/user/login",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				},
+				"description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"user@example.com\",\n    \"password\": \"123123123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/user/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 09 Jun 2024 05:38:42 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "310"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"success login\",\n    \"data\": {\n        \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZjIzMGU1ZDYtZWNiMC00NGY0LTk4YjUtYWQzYWYyNzk1NmYwIiwicm9sZSI6InVzZXIiLCJpc3MiOiJUZW1wbGF0ZSIsImV4cCI6MTcxNzkxODcyMiwiaWF0IjoxNzE3OTExNTIyfQ.iWViJJd8_sDPY_A9WdWoIx-YVY5aVCiErbUVXPA50XU\",\n        \"role\": \"user\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful PUT request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 204]);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{auth_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"user ganteng\",\n    \"email\": \"newmail@asd.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/user",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"user"
+					]
+				},
+				"description": "This is a PUT request and it is used to overwrite an existing piece of data. For instance, after you create an entity with a POST request, you may want to modify that later. You can do that using a PUT request. You typically identify the entity being updated by including an identifier in the URL (eg. `id=1`).\n\nA successful PUT request typically returns a `200 OK`, `201 Created`, or `204 No Content` response code."
+			},
+			"response": [
+				{
+					"name": "Update",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"user ganteng\",\n    \"email\": \"newmail@asd.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/user",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"user"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 09 Jun 2024 05:38:55 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "59"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"success update user\",\n    \"data\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Successful DELETE request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 202, 204]);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{auth_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/user",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"user"
+					]
+				},
+				"description": "This is a DELETE request, and it is used to delete data that was previously created via a POST request. You typically identify the entity being updated by including an identifier in the URL (eg. `id=1`).\n\nA successful DELETE request typically returns a `200 OK`, `202 Accepted`, or `204 No Content` response code."
+			},
+			"response": [
+				{
+					"name": "Delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/user",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"user"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 09 Jun 2024 05:38:59 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "59"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"success delete user\",\n    \"data\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Analysis (Guest)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/ml/guest/analysis?product_url=https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"ml",
+						"guest",
+						"analysis"
+					],
+					"query": [
+						{
+							"key": "product_url",
+							"value": "https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Analysis (Guest)",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/ml/guest/analysis?product_url=https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"ml",
+								"guest",
+								"analysis"
+							],
+							"query": [
+								{
+									"key": "product_url",
+									"value": "https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 09 Jun 2024 14:28:02 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"success get reviews\",\n    \"data\": {\n        \"product_name\": \"Tropicana Slim Cafe Latte (10 sch) - Kopi Bebas Gula\",\n        \"product_description\": \"Tropicana Slim Cafe Latte adalah paduan kopi susu yang sempurna dengan rasa manis yang bisa dinikmati tanpa rasa khawatir karena diformulasikan tanpa penambahan gula pasir sehingga aman untuk diabetesi dan cocok untuk diet. \\nSemangati harimu dengan secangkir Tropicana Slim Cafe Latte!\\n\\nMengapa Tropicana Slim Cafe Latte?\\n- Rasa kopi susu yang nikmat\\n- Tanpa penambahan gula pasir \\n- Aman untuk diabetesi dan cocok untuk diet\\n- Lebih rendah kafein, aman untuk ibu hamil dan menyusui.\\n\\nCara Penyajian dan Petunjuk Konsumsi :\\nLarutkan 1 sachet Tropicana Slim Cafe Latte dalam 200 ml air hangat.  Aduk merata, dan secangkir kopi hangat yang nikmat lezat pun siap Anda nikmati.\\n\\nNutrimart merekomendasikan Tropicana Slim Cafe Latte untuk kamu yang:\\n - Mencari KOPI NIKMAT ala CAFE, TANPA GULA PASIR\\n - Memulai POLA HIDUP SEHAT dengan membatasi asupan gula\\n - MenJAGA KADAR GULA DARAH\\n - Memiliki DIABETES\\n - Menjalankan DIET\\n - Mementingkan KREDIBILITAS produk dengan pengalaman hampir 50 TAHUN\",\n        \"rating\": 100,\n        \"ulasan\": 93,\n        \"bintang\": 4.91,\n        \"image_urls\": [\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2023/7/26/e799c724-ed29-43dc-b723-2854421553f3.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/aef9ea0c-0e01-45f3-bc0f-8bc5b03dc581.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/26e86f2d-373b-46cb-bda9-1ab4bd427907.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/002e056c-cd07-4fbc-aefe-1f9a1d9ea739.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/07280c5d-b3de-4818-87be-440355233f6c.jpg\"\n        ],\n        \"shop_name\": \"NutriMart\",\n        \"count_negative\": 48,\n        \"count_positive\": 45,\n        \"packaging\": 84.62,\n        \"delivery\": 90,\n        \"admin_response\": 100,\n        \"product_condition\": 92.59,\n        \"summary\": \"Secara keseluruhan, produk Tropicana Slim Cafe Latte mendapatkan ulasan yang positif. Pengguna menyukai rasanya yang enak, meskipun beberapa menganggapnya terlalu manis. Pengiriman cepat dan pengemasan aman diapresiasi oleh banyak pengguna. Produk ini juga dipuji karena rendah kalori dan bebas gula, menjadikannya pilihan yang lebih sehat. Beberapa pengguna menyebutkan bahwa mereka telah menjadi pelanggan tetap dan akan membeli lagi. \"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Analysis (Auth)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{auth_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/ml/analysis?product_url=https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"ml",
+						"analysis"
+					],
+					"query": [
+						{
+							"key": "product_url",
+							"value": "https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Analysis (Auth)",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/ml/analysis?product_url=https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"ml",
+								"analysis"
+							],
+							"query": [
+								{
+									"key": "product_url",
+									"value": "https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula?src=topads"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 09 Jun 2024 14:29:31 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"success get reviews\",\n    \"data\": {\n        \"product_name\": \"Tropicana Slim Cafe Latte (10 sch) - Kopi Bebas Gula\",\n        \"product_description\": \"Tropicana Slim Cafe Latte adalah paduan kopi susu yang sempurna dengan rasa manis yang bisa dinikmati tanpa rasa khawatir karena diformulasikan tanpa penambahan gula pasir sehingga aman untuk diabetesi dan cocok untuk diet. \\nSemangati harimu dengan secangkir Tropicana Slim Cafe Latte!\\n\\nMengapa Tropicana Slim Cafe Latte?\\n- Rasa kopi susu yang nikmat\\n- Tanpa penambahan gula pasir \\n- Aman untuk diabetesi dan cocok untuk diet\\n- Lebih rendah kafein, aman untuk ibu hamil dan menyusui.\\n\\nCara Penyajian dan Petunjuk Konsumsi :\\nLarutkan 1 sachet Tropicana Slim Cafe Latte dalam 200 ml air hangat.  Aduk merata, dan secangkir kopi hangat yang nikmat lezat pun siap Anda nikmati.\\n\\nNutrimart merekomendasikan Tropicana Slim Cafe Latte untuk kamu yang:\\n - Mencari KOPI NIKMAT ala CAFE, TANPA GULA PASIR\\n - Memulai POLA HIDUP SEHAT dengan membatasi asupan gula\\n - MenJAGA KADAR GULA DARAH\\n - Memiliki DIABETES\\n - Menjalankan DIET\\n - Mementingkan KREDIBILITAS produk dengan pengalaman hampir 50 TAHUN\",\n        \"rating\": 100,\n        \"ulasan\": 93,\n        \"bintang\": 4.91,\n        \"image_urls\": [\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2023/7/26/e799c724-ed29-43dc-b723-2854421553f3.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/aef9ea0c-0e01-45f3-bc0f-8bc5b03dc581.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/26e86f2d-373b-46cb-bda9-1ab4bd427907.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/002e056c-cd07-4fbc-aefe-1f9a1d9ea739.jpg\",\n            \"https://images.tokopedia.net/img/cache/700/VqbcmM/2022/6/24/07280c5d-b3de-4818-87be-440355233f6c.jpg\"\n        ],\n        \"shop_name\": \"NutriMart\",\n        \"count_negative\": 47,\n        \"count_positive\": 46,\n        \"packaging\": 84.62,\n        \"delivery\": 90,\n        \"admin_response\": 100,\n        \"product_condition\": 94.74,\n        \"summary\": \"Secara keseluruhan, Tropicana Slim Cafe Latte mendapatkan ulasan positif. Banyak pengguna yang menyukai rasanya yang enak dan menyegarkan, meskipun beberapa menganggapnya terlalu manis. Pengiriman umumnya cepat dan kemasan aman, meskipun ada beberapa kasus di mana kemasannya kotor. Produk ini diapresiasi karena rendah kalori dan bebas gula, cocok untuk mereka yang memperhatikan kesehatan. Beberapa pengguna menyarankan untuk menambahkan es agar rasa manisnya lebih pas.\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Histories",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{auth_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/history?limit=10&page=1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"history"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Histories",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/history?limit=10&page=1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"history"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 09 Jun 2024 14:29:50 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1155"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"success get histories\",\n    \"data\": {\n        \"histories\": [\n            {\n                \"id\": \"39a846df-4363-41c5-b287-5d89b0b1b5b5\",\n                \"url\": \"https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula\",\n                \"product_id\": \"502182312\",\n                \"product_name\": \"Tropicana Slim Cafe Latte (10 sch) - Kopi Bebas Gula\",\n                \"positive_count\": 46,\n                \"negative_count\": 47,\n                \"rating\": 100,\n                \"ulasan\": 93,\n                \"bintang\": 4.91,\n                \"packaging\": 84.62,\n                \"delivery\": 90,\n                \"admin_response\": 100,\n                \"product_condition\": 94.74,\n                \"content\": \"Secara keseluruhan, Tropicana Slim Cafe Latte mendapatkan ulasan positif. Banyak pengguna yang menyukai rasanya yang enak dan menyegarkan, meskipun beberapa menganggapnya terlalu manis. Pengiriman umumnya cepat dan kemasan aman, meskipun ada beberapa kasus di mana kemasannya kotor. Produk ini diapresiasi karena rendah kalori dan bebas gula, cocok untuk mereka yang memperhatikan kesehatan. Beberapa pengguna menyarankan untuk menambahkan es agar rasa manisnya lebih pas.\",\n                \"user_id\": \"2857a1c8-f684-48ce-b7b4-e646023021ee\",\n                \"created_at\": \"2024-06-09T21:29:31.785677+07:00\",\n                \"updated_at\": \"2024-06-09T21:29:31.785677+07:00\",\n                \"deleted_at\": null\n            }\n        ],\n        \"page\": 1,\n        \"pages\": 1,\n        \"limit\": 10,\n        \"total\": 1\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Histories By ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{auth_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/history/:id",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"history",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "bf4d9c1f-01ae-4153-b43d-4fb2cde03715"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Histories By ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/history/:id",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"history",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "39a846df-4363-41c5-b287-5d89b0b1b5b5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,HEAD,PATCH, OPTIONS, GET, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 09 Jun 2024 14:32:10 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "985"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"success get histories\",\n    \"data\": {\n        \"id\": \"39a846df-4363-41c5-b287-5d89b0b1b5b5\",\n        \"user_id\": \"2857a1c8-f684-48ce-b7b4-e646023021ee\",\n        \"product_id\": \"502182312\",\n        \"url\": \"https://www.tokopedia.com/nutrimartid/tropicana-slim-cafe-latte-10-sch-kopi-bebas-gula\",\n        \"rating\": 100,\n        \"ulasan\": 93,\n        \"bintang\": 4.91,\n        \"product_name\": \"Tropicana Slim Cafe Latte (10 sch) - Kopi Bebas Gula\",\n        \"positive_count\": 46,\n        \"negative_count\": 47,\n        \"packaging\": 84.62,\n        \"delivery\": 90,\n        \"admin_response\": 100,\n        \"product_condition\": 94.74,\n        \"content\": \"Secara keseluruhan, Tropicana Slim Cafe Latte mendapatkan ulasan positif. Banyak pengguna yang menyukai rasanya yang enak dan menyegarkan, meskipun beberapa menganggapnya terlalu manis. Pengiriman umumnya cepat dan kemasan aman, meskipun ada beberapa kasus di mana kemasannya kotor. Produk ini diapresiasi karena rendah kalori dan bebas gula, cocok untuk mereka yang memperhatikan kesehatan. Beberapa pengguna menyarankan untuk menambahkan es agar rasa manisnya lebih pas.\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

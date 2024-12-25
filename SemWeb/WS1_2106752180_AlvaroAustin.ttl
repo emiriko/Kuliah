@@ -1,0 +1,1184 @@
+@prefix :      <https://ws1-2106752180.org/data#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ws1-2106752180.org/SaifulRahmatDasuki>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Saiful Rahmat Dasuki" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PPP> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriAgama> ;
+                             :mulai_menjabat  "2023-07-17"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/JuliariBatubara>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Juliari Batubara" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/PDI-P> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriSosial> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2020-12-06"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/PaimanRaharjo>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Paiman Raharjo" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriDesa,PembangunanDaerahTertinggaldanTransmigrasi> ;
+                             :mulai_menjabat  "2023-07-17"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/KepalaOtoritaIbuKotaNusantara>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Kepala Otorita Ibu Kota Nusantara" ;
+        :members    <https://ws1-2106752180.org/BambangSusantono> .
+
+<https://ws1-2106752180.org/MenteriPerhubungan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Perhubungan" ;
+        :members    <https://ws1-2106752180.org/BudiKaryaSumadi> .
+
+<https://ws1-2106752180.org/BasukiHadimuljono>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Basuki Hadimuljono" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPekerjaanUmumdanPerumahanRakyat> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/KartikaWirjoatmodjo>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Kartika Wirjoatmodjo" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriBadanUsahaMilikNegara> ;
+                             :mulai_menjabat  "2019-10-25"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/SandiagaUno>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Sandiaga Uno" ;
+        :occupiesPosition  [ :afiliasi                <https://ws1-2106752180.org/PPP> ;
+                             :afiliasi_saat_dilantik  :Gerindra ;
+                             :jabatan                 <https://ws1-2106752180.org/MenteriPariwisatadanEkonomiKreatif/KepalaBadanPariwisatadanEkonomiKreatif> ;
+                             :mulai_menjabat          "2020-12-23"^^xsd:date ;
+                             :status                  <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/Pelaksanatugas>
+        rdf:type    vcard:Status ;
+        rdfs:label  "Pelaksana tugas" .
+
+<https://ws1-2106752180.org/KepalaBadanIntelijenNegara>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Kepala Badan Intelijen Negara" ;
+        :members    <https://ws1-2106752180.org/BudiGunawan> .
+
+<https://ws1-2106752180.org/MenteriKoordinatorBidangKemaritimandanInvestasi>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Koordinator Bidang Kemaritiman dan Investasi" ;
+        :members    <https://ws1-2106752180.org/LuhutBinsarPanjaitan> .
+
+<https://ws1-2106752180.org/KepalaStafKepresidenan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Kepala Staf Kepresidenan" ;
+        :members    <https://ws1-2106752180.org/Moeldoko> .
+
+<https://ws1-2106752180.org/TetenMasduki>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Teten Masduki" ;
+        :occupiesPosition  [ :afiliasi                <https://ws1-2106752180.org/PDI-P> ;
+                             :afiliasi_saat_dilantik  :Nonpartai ;
+                             :jabatan                 <https://ws1-2106752180.org/MenteriKoperasidanUsahaKecildanMenengah> ;
+                             :mulai_menjabat          "2019-10-23"^^xsd:date ;
+                             :status                  <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriKoordinatorBidangPembangunanManusiadanKebudayaan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan" ;
+        :members    <https://ws1-2106752180.org/MuhadjirEffendy> .
+
+<https://ws1-2106752180.org/Moeldoko>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Moeldoko" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/KepalaStafKepresidenan> ;
+                             :mulai_menjabat  "2019-10-22"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/ZainudinAmali>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Zainudin Amali" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Golkar> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriPemudadanOlahraga> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2023-03-13"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/PBB>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "PBB" .
+
+<https://ws1-2106752180.org/SofyanDjalil>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Sofyan Djalil" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriAgrariadanTataRuang/KepalaBadanPertanahanNasional> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2022-12-15"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/MuhammadLutfi>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Muhammad Lutfi" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriPerdagangan> ;
+                             :mulai_menjabat    "2020-12-23"^^xsd:date ;
+                             :selesai_menjabat  "2022-06-15"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/JerrySambuaga>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Jerry Sambuaga" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Golkar> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriPerdagangan> ;
+                             :mulai_menjabat  "2019-10-25"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriPertahanan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Pertahanan" ;
+        :members    <https://ws1-2106752180.org/PrabowoSubianto> .
+
+<https://ws1-2106752180.org/AngelaTanoesoedibjo>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Angela Tanoesoedibjo" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Perindo> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriPariwisatadanEkonomiKreatif/WakilKepalaBadanPariwisatadanEkonomiKreatif> ;
+                             :mulai_menjabat  "2019-10-25"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/Presiden>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Presiden" ;
+        :members    <https://ws1-2106752180.org/JokoWidodo> .
+
+<https://ws1-2106752180.org/MenteriKoordinatorBidangPolitik,Hukum,danKeamanan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Koordinator Bidang Politik, Hukum, dan Keamanan" ;
+        :members    <https://ws1-2106752180.org/MohammadMahfudMD> .
+
+<https://ws1-2106752180.org/MenteriKelautandanPerikanan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Kelautan dan Perikanan" ;
+        :members    <https://ws1-2106752180.org/SaktiWahyuTrenggono> , <https://ws1-2106752180.org/SyahrulYasinLimpo> , <https://ws1-2106752180.org/LuhutBinsarPanjaitan> , <https://ws1-2106752180.org/EdhyPrabowo> .
+
+<https://ws1-2106752180.org/AgusGumiwangKartasasmita>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Agus Gumiwang Kartasasmita" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Golkar> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPerindustrian> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/Gerindra>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "Gerindra" .
+
+<https://ws1-2106752180.org/MahendraSiregar>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Mahendra Siregar" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/WakilMenteriLuarNegeri> ;
+                             :mulai_menjabat    "2019-10-25"^^xsd:date ;
+                             :selesai_menjabat  "2022-07-20"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/MenteriKeuangan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Keuangan" ;
+        :members    <https://ws1-2106752180.org/SriMulyani> .
+
+<https://ws1-2106752180.org/AlueDohong>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Alue Dohong" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriLingkunganHidupdanKehutanan> ;
+                             :mulai_menjabat  "2019-10-25"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/PahalaMansury>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Pahala Mansury" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/WakilMenteriBadanUsahaMilikNegara> ;
+                             :mulai_menjabat    "2020-12-23"^^xsd:date ;
+                             :selesai_menjabat  "2023-07-17"^^xsd:date
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriLuarNegeri> ;
+                             :mulai_menjabat  "2023-07-17"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/Ma'rufAmin>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Ma'ruf Amin" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilPresiden> ;
+                             :mulai_menjabat  "2019-10-20"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/ErickThohir>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Erick Thohir" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriBadanUsahaMilikNegara> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriKesehatan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Kesehatan" ;
+        :members    <https://ws1-2106752180.org/BudiGunadiSadikin> , <https://ws1-2106752180.org/TerawanAgusPutranto> .
+
+<https://ws1-2106752180.org/ad-interim>
+        rdf:type    vcard:Status ;
+        rdfs:label  "ad-interim" .
+
+<https://ws1-2106752180.org/SuahasilNazara>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Suahasil Nazara" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriKeuangan> ;
+                             :mulai_menjabat  "2019-10-25"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/WakilMenteriPekerjaanUmumdanPerumahanRakyat>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Pekerjaan Umum dan Perumahan Rakyat" ;
+        :members    <https://ws1-2106752180.org/JohnWempiWetipo> .
+
+<https://ws1-2106752180.org/YasonnaLaoly>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Yasonna Laoly" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PDI-P> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriHukumdanHakAsasiManusia> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/SriMulyani>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Sri Mulyani" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriKeuangan> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/BudiGunawan>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Budi Gunawan" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/KepalaBadanIntelijenNegara> ;
+                             :mulai_menjabat  "2016-09-09"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/PDI-P>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "PDI-P" .
+
+<https://ws1-2106752180.org/KepalaKepolisianNegaraRepublikIndonesia>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Kepala Kepolisian Negara Republik Indonesia" ;
+        :members    <https://ws1-2106752180.org/ListyoSigitPrabowo> , <https://ws1-2106752180.org/IdhamAzis> , <https://ws1-2106752180.org/AriDonoSukmanto> .
+
+<https://ws1-2106752180.org/NadiemMakarim>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Nadiem Makarim" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPendidikan,Kebudayaan,Riset,danTeknologi> ;
+                             :mulai_menjabat  "2021-04-28"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriPendidikandanKebudayaan> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2021-04-28"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/FachrulRazi>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Fachrul Razi" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriAgama> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2020-12-23"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/IdaFauziyah>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Ida Fauziyah" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PKB> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriKetenagakerjaan> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/BudiGunadiSadikin>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Budi Gunadi Sadikin" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/WakilMenteriBadanUsahaMilikNegara> ;
+                             :mulai_menjabat    "2019-10-25"^^xsd:date ;
+                             :selesai_menjabat  "2020-12-23"^^xsd:date
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriKesehatan> ;
+                             :mulai_menjabat  "2020-12-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/SekretarisKabinet>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Sekretaris Kabinet" ;
+        :members    <https://ws1-2106752180.org/PramonoAnung> .
+
+<https://ws1-2106752180.org/AndikaPerkasa>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Andika Perkasa" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/PanglimaTentaraNasionalIndonesia> ;
+                             :mulai_menjabat    "2021-11-17"^^xsd:date ;
+                             :selesai_menjabat  "2022-12-19"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/AfriansyahNoor>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Afriansyah Noor" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PBB> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriKetenagakerjaan> ;
+                             :mulai_menjabat  "2022-06-15"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriAgama>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Agama" ;
+        :members    <https://ws1-2106752180.org/YaqutCholilQoumas> , <https://ws1-2106752180.org/FachrulRazi> .
+
+<https://ws1-2106752180.org/MenteriPekerjaanUmumdanPerumahanRakyat>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Pekerjaan Umum dan Perumahan Rakyat" ;
+        :members    <https://ws1-2106752180.org/BasukiHadimuljono> .
+
+<https://ws1-2106752180.org/SuryaTjandra>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Surya Tjandra" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/PSI> ;
+                             :jabatan           <https://ws1-2106752180.org/WakilMenteriAgrariadanTataRuang/WakilKepalaBadanPertanahanNasional> ;
+                             :mulai_menjabat    "2019-10-25"^^xsd:date ;
+                             :selesai_menjabat  "2022-12-15"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/NasDem>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "NasDem" .
+
+<https://ws1-2106752180.org/WakilMenteriAgrariadanTataRuang/WakilKepalaBadanPertanahanNasional>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Agraria dan Tata Ruang/Wakil Kepala Badan Pertanahan Nasional" ;
+        :members    <https://ws1-2106752180.org/RajaJuliAntoni> , <https://ws1-2106752180.org/SuryaTjandra> .
+
+<https://ws1-2106752180.org/MenteriHukumdanHakAsasiManusia>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Hukum dan Hak Asasi Manusia" ;
+        :members    <https://ws1-2106752180.org/YasonnaLaoly> .
+
+<https://ws1-2106752180.org/JohnnyGerardPlate>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Johnny Gerard Plate" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/NasDem> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriKomunikasidanInformatika> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2023-05-19"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/WakilMenteriDesa,PembangunanDaerahTertinggaldanTransmigrasi>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Desa, Pembangunan Daerah Tertinggal dan Transmigrasi" ;
+        :members    <https://ws1-2106752180.org/PaimanRaharjo> , <https://ws1-2106752180.org/BudiArieSetiadi> .
+
+<https://ws1-2106752180.org/MenteriSosial>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Sosial" ;
+        :members    <https://ws1-2106752180.org/TriRismaharini> , <https://ws1-2106752180.org/MuhadjirEffendy> , <https://ws1-2106752180.org/JuliariBatubara> .
+
+<https://ws1-2106752180.org/MenteriLuarNegeri>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Luar Negeri" ;
+        :members    <https://ws1-2106752180.org/RetnoLestariPriansariMarsudi> .
+
+<https://ws1-2106752180.org/LaksanaTriHandoko>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Laksana Tri Handoko" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/KepalaBadanRisetdanInovasiNasional> ;
+                             :mulai_menjabat  "2021-04-28"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriEnergidanSumberDayaMineral>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Energi dan Sumber Daya Mineral" ;
+        :members    <https://ws1-2106752180.org/ArifinTasrif> .
+
+<https://ws1-2106752180.org/Petahana>
+        rdf:type    vcard:Status ;
+        rdfs:label  "Petahana" .
+
+<https://ws1-2106752180.org/EdwardOmarSharifHiariej>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Edward Omar Sharif Hiariej" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriHukumdanHakAsasiManusia> ;
+                             :mulai_menjabat  "2020-12-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/KepalaBadanRisetdanInovasiNasional>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Kepala Badan Riset dan Inovasi Nasional" ;
+        :members    <https://ws1-2106752180.org/LaksanaTriHandoko> .
+
+<https://ws1-2106752180.org/SyahrulYasinLimpo>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Syahrul Yasin Limpo" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/NasDem> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriKelautandanPerikanan> ;
+                             :mulai_menjabat    "2020-12-02"^^xsd:date ;
+                             :selesai_menjabat  "2020-12-23"^^xsd:date ;
+                             :status            <https://ws1-2106752180.org/ad-interim>
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/NasDem> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPertanian> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/PKB>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "PKB" .
+
+<https://ws1-2106752180.org/MenteriKoperasidanUsahaKecildanMenengah>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Koperasi dan Usaha Kecil dan Menengah" ;
+        :members    <https://ws1-2106752180.org/TetenMasduki> .
+
+<https://ws1-2106752180.org/WakilMenteriPertanian>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Pertanian" ;
+        :members    <https://ws1-2106752180.org/HarvickHasnulQolbi> .
+
+<https://ws1-2106752180.org/MenteriPendidikan,Kebudayaan,Riset,danTeknologi>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi" ;
+        :members    <https://ws1-2106752180.org/NadiemMakarim> .
+
+<https://ws1-2106752180.org/Golkar>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "Golkar" .
+
+<https://ws1-2106752180.org/WakilMenteriDalamNegeri>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Dalam Negeri" ;
+        :members    <https://ws1-2106752180.org/JohnWempiWetipo> .
+
+<https://ws1-2106752180.org/WakilMenteriLingkunganHidupdanKehutanan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Lingkungan Hidup dan Kehutanan" ;
+        :members    <https://ws1-2106752180.org/AlueDohong> .
+
+<https://ws1-2106752180.org/EdhyPrabowo>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Edhy Prabowo" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Gerindra> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriKelautandanPerikanan> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2020-11-25"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/HarvickHasnulQolbi>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Harvick Hasnul Qolbi" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriPertanian> ;
+                             :mulai_menjabat  "2020-12-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/DanteSaksonoHarbuwono>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Dante Saksono Harbuwono" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriKesehatan> ;
+                             :mulai_menjabat  "2020-12-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/WakilMenteriPariwisatadanEkonomiKreatif/WakilKepalaBadanPariwisatadanEkonomiKreatif>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Pariwisata dan Ekonomi Kreatif/ Wakil Kepala Badan Pariwisata dan Ekonomi Kreatif" ;
+        :members    <https://ws1-2106752180.org/AngelaTanoesoedibjo> .
+
+<https://ws1-2106752180.org/MenteriSekretarisNegara>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Sekretaris Negara" ;
+        :members    <https://ws1-2106752180.org/Pratikno> .
+
+<https://ws1-2106752180.org/JokoWidodo>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Joko Widodo" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PDI-P> ;
+                             :jabatan         <https://ws1-2106752180.org/Presiden> ;
+                             :mulai_menjabat  "2019-10-20"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/ZulkifliHasan>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Zulkifli Hasan" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PAN> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPerdagangan> ;
+                             :mulai_menjabat  "2022-06-15"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/RajaJuliAntoni>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Raja Juli Antoni" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PSI> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriAgrariadanTataRuang/WakilKepalaBadanPertanahanNasional> ;
+                             :mulai_menjabat  "2022-12-15"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/RetnoLestariPriansariMarsudi>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Retno Lestari Priansari Marsudi" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriLuarNegeri> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriDesa,PembangunanDaerahTertinggaldanTransmigrasi>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Desa, Pembangunan Daerah Tertinggal dan Transmigrasi" ;
+        :members    <https://ws1-2106752180.org/AbdulHalimIskandar> .
+
+<https://ws1-2106752180.org/PSI>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "PSI" .
+
+<https://ws1-2106752180.org/BahlilLahadalia>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Bahlil Lahadalia" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriInvestasi/KepalaBadanKoordinasiPenanamanModal> ;
+                             :mulai_menjabat  "2021-04-28"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriAgrariadanTataRuang/KepalaBadanPertanahanNasional>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Agraria dan Tata Ruang/ Kepala Badan Pertanahan Nasional" ;
+        :members    <https://ws1-2106752180.org/HadiTjahjanto> , <https://ws1-2106752180.org/SofyanDjalil> .
+
+<https://ws1-2106752180.org/TjahjoKumolo>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Tjahjo Kumolo" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/PDI-P> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriPendayagunaanAparaturNegaradanReformasiBirokrasi> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2022-12-20"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/SuharsoMonoarfa>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Suharso Monoarfa" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PPP> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPerencanaanPembangunanNasional/KepalaBadanPerencanaanPembangunanNasional> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/WakilMenteriPerdagangan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Perdagangan" ;
+        :members    <https://ws1-2106752180.org/JerrySambuaga> .
+
+<https://ws1-2106752180.org/JohnWempiWetipo>
+        rdf:type           vcard:Person ;
+        rdfs:label         "John Wempi Wetipo" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/PDI-P> ;
+                             :jabatan           <https://ws1-2106752180.org/WakilMenteriPekerjaanUmumdanPerumahanRakyat> ;
+                             :mulai_menjabat    "2019-10-25"^^xsd:date ;
+                             :selesai_menjabat  "2022-12-15"^^xsd:date
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PDI-P> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriDalamNegeri> ;
+                             :mulai_menjabat  "2022-12-15"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/JaksaAgung>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Jaksa Agung" ;
+        :members    <https://ws1-2106752180.org/STBurhanuddin> , <https://ws1-2106752180.org/Arminsyah> .
+
+<https://ws1-2106752180.org/MenteriLingkunganHidupdanKehutanan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Lingkungan Hidup dan Kehutanan" ;
+        :members    <https://ws1-2106752180.org/SitiNurbayaBakar> .
+
+<https://ws1-2106752180.org/MenteriBadanUsahaMilikNegara>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Badan Usaha Milik Negara" ;
+        :members    <https://ws1-2106752180.org/ErickThohir> .
+
+<https://ws1-2106752180.org/WakilMenteriPertahanan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Pertahanan" ;
+        :members    <https://ws1-2106752180.org/MuhammadHerindra> , <https://ws1-2106752180.org/SaktiWahyuTrenggono> .
+
+<https://ws1-2106752180.org/AriDonoSukmanto>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Ari Dono Sukmanto" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/KepalaKepolisianNegaraRepublikIndonesia> ;
+                             :mulai_menjabat    "2019-10-22"^^xsd:date ;
+                             :selesai_menjabat  "2019-11-01"^^xsd:date ;
+                             :status            <https://ws1-2106752180.org/Pelaksanatugas>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriPerindustrian>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Perindustrian" ;
+        :members    <https://ws1-2106752180.org/AgusGumiwangKartasasmita> .
+
+<https://ws1-2106752180.org/Perindo>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "Perindo" .
+
+<https://ws1-2106752180.org/MenteriPemudadanOlahraga>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Pemuda dan Olahraga" ;
+        :members    <https://ws1-2106752180.org/DitoAriotedjo> , <https://ws1-2106752180.org/MuhadjirEffendy> , <https://ws1-2106752180.org/ZainudinAmali> .
+
+<https://ws1-2106752180.org/ListyoSigitPrabowo>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Listyo Sigit Prabowo" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/KepalaKepolisianNegaraRepublikIndonesia> ;
+                             :mulai_menjabat  "2021-01-27"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriKomunikasidanInformatika>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Komunikasi dan Informatika" ;
+        :members    <https://ws1-2106752180.org/BudiArieSetiadi> , <https://ws1-2106752180.org/MohammadMahfudMD> , <https://ws1-2106752180.org/JohnnyGerardPlate> .
+
+<https://ws1-2106752180.org/Pratikno>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Pratikno" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriSekretarisNegara> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/PramonoAnung>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Pramono Anung" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/SekretarisKabinet> ;
+                             :mulai_menjabat  "2019-10-22"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/WakilMenteriBadanUsahaMilikNegara>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Badan Usaha Milik Negara" ;
+        :members    <https://ws1-2106752180.org/RosanRoeslani> , <https://ws1-2106752180.org/PahalaMansury> , <https://ws1-2106752180.org/KartikaWirjoatmodjo> , <https://ws1-2106752180.org/BudiGunadiSadikin> .
+
+<https://ws1-2106752180.org/IdhamAzis>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Idham Azis" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/KepalaKepolisianNegaraRepublikIndonesia> ;
+                             :mulai_menjabat    "2019-11-01"^^xsd:date ;
+                             :selesai_menjabat  "2021-01-27"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/ArifinTasrif>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Arifin Tasrif" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriEnergidanSumberDayaMineral> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/AgusSuparmanto>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Agus Suparmanto" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/PKB> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriPerdagangan> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2020-12-23"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/SaktiWahyuTrenggono>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Sakti Wahyu Trenggono" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/WakilMenteriPertahanan> ;
+                             :mulai_menjabat    "2019-10-25"^^xsd:date ;
+                             :selesai_menjabat  "2020-12-23"^^xsd:date
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriKelautandanPerikanan> ;
+                             :mulai_menjabat  "2020-12-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/DitoAriotedjo>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Dito Ariotedjo" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Golkar> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPemudadanOlahraga> ;
+                             :mulai_menjabat  "2023-04-03"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/BambangBrodjonegoro>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Bambang Brodjonegoro" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriRisetdanTeknologi/KepalaBadanRisetdanInovasiNasional> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2021-04-28"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/AbdulHalimIskandar>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Abdul Halim Iskandar" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PKB> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriDesa,PembangunanDaerahTertinggaldanTransmigrasi> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/NezarPatria>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Nezar Patria" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriKomunikasidanInformatika> ;
+                             :mulai_menjabat  "2023-07-17"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriPertanian>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Pertanian" ;
+        :members    <https://ws1-2106752180.org/SyahrulYasinLimpo> .
+
+<https://ws1-2106752180.org/MenteriPariwisatadanEkonomiKreatif/KepalaBadanPariwisatadanEkonomiKreatif>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Pariwisata dan Ekonomi Kreatif/ Kepala Badan Pariwisata dan Ekonomi Kreatif" ;
+        :members    <https://ws1-2106752180.org/SandiagaUno> , <https://ws1-2106752180.org/WishnutamaKusubandio> .
+
+<https://ws1-2106752180.org/BudiKaryaSumadi>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Budi Karya Sumadi" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPerhubungan> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/WakilMenteriHukumdanHakAsasiManusia>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Hukum dan Hak Asasi Manusia" ;
+        :members    <https://ws1-2106752180.org/EdwardOmarSharifHiariej> .
+
+<https://ws1-2106752180.org/MohammadMahfudMD>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Mohammad Mahfud MD" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriPendayagunaanAparaturNegaradanReformasiBirokrasi> ;
+                             :mulai_menjabat    "2022-07-16"^^xsd:date ;
+                             :selesai_menjabat  "2022-09-07"^^xsd:date ;
+                             :status            <https://ws1-2106752180.org/Pelaksanatugas>
+                           ] ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriPendayagunaanAparaturNegaradanReformasiBirokrasi> ;
+                             :mulai_menjabat    "2022-12-20"^^xsd:date ;
+                             :selesai_menjabat  "2022-07-04"^^xsd:date ;
+                             :status            <https://ws1-2106752180.org/ad-interim>
+                           ] ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriKomunikasidanInformatika> ;
+                             :mulai_menjabat    "2023-05-19"^^xsd:date ;
+                             :selesai_menjabat  "2023-07-17"^^xsd:date ;
+                             :status            <https://ws1-2106752180.org/Pelaksanatugas>
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Golkar> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriKoordinatorBidangPolitik,Hukum,danKeamanan> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/BambangSusantono>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Bambang Susantono" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/KepalaOtoritaIbuKotaNusantara> ;
+                             :mulai_menjabat  "2022-03-10"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriInvestasi/KepalaBadanKoordinasiPenanamanModal>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Investasi/ Kepala Badan Koordinasi Penanaman Modal" ;
+        :members    <https://ws1-2106752180.org/BahlilLahadalia> .
+
+<https://ws1-2106752180.org/STBurhanuddin>
+        rdf:type           vcard:Person ;
+        rdfs:label         "ST Burhanuddin" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/JaksaAgung> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriRisetdanTeknologi/KepalaBadanRisetdanInovasiNasional>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Riset dan Teknologi/ Kepala Badan Riset dan Inovasi Nasional" ;
+        :members    <https://ws1-2106752180.org/BambangBrodjonegoro> .
+
+<https://ws1-2106752180.org/TitoKarnavian>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Tito Karnavian" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriPendayagunaanAparaturNegaradanReformasiBirokrasi> ;
+                             :mulai_menjabat    "2022-07-04"^^xsd:date ;
+                             :selesai_menjabat  "2022-07-16"^^xsd:date ;
+                             :status            <https://ws1-2106752180.org/ad-interim>
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriDalamNegeri> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriKoordinatorBidangPerekonomian>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Koordinator Bidang Perekonomian" ;
+        :members    <https://ws1-2106752180.org/AirlanggaHartarto> .
+
+<https://ws1-2106752180.org/MenteriKetenagakerjaan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Ketenagakerjaan" ;
+        :members    <https://ws1-2106752180.org/IdaFauziyah> .
+
+<https://ws1-2106752180.org/LuhutBinsarPanjaitan>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Luhut Binsar Panjaitan" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Golkar> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriKelautandanPerikanan> ;
+                             :mulai_menjabat    "2020-11-25"^^xsd:date ;
+                             :selesai_menjabat  "2020-12-02"^^xsd:date ;
+                             :status            <https://ws1-2106752180.org/ad-interim>
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Golkar> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriKoordinatorBidangKemaritimandanInvestasi> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/PPP>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "PPP" .
+
+<https://ws1-2106752180.org/WakilMenteriLuarNegeri>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Luar Negeri" ;
+        :members    <https://ws1-2106752180.org/PahalaMansury> , <https://ws1-2106752180.org/MahendraSiregar> .
+
+<https://ws1-2106752180.org/MenteriPendayagunaanAparaturNegaradanReformasiBirokrasi>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi" ;
+        :members    <https://ws1-2106752180.org/AbdullahAzwarAnas> , <https://ws1-2106752180.org/TitoKarnavian> , <https://ws1-2106752180.org/MohammadMahfudMD> , <https://ws1-2106752180.org/TjahjoKumolo> .
+
+<https://ws1-2106752180.org/AbdullahAzwarAnas>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Abdullah Azwar Anas" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PDI-P> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPendayagunaanAparaturNegaradanReformasiBirokrasi> ;
+                             :mulai_menjabat  "2022-09-07"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/PanglimaTentaraNasionalIndonesia>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Panglima Tentara Nasional Indonesia" ;
+        :members    <https://ws1-2106752180.org/YudoMargono> , <https://ws1-2106752180.org/AndikaPerkasa> , <https://ws1-2106752180.org/HadiTjahjanto> .
+
+<https://ws1-2106752180.org/MenteriPemberdayaanPerempuandanPerlindunganAnak>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Pemberdayaan Perempuan dan Perlindungan Anak" ;
+        :members    <https://ws1-2106752180.org/IGustiAyuBintangDarmawati> .
+
+<https://ws1-2106752180.org/HadiTjahjanto>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Hadi Tjahjanto" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/PanglimaTentaraNasionalIndonesia> ;
+                             :mulai_menjabat    "2017-12-08"^^xsd:date ;
+                             :selesai_menjabat  "2021-11-17"^^xsd:date
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriAgrariadanTataRuang/KepalaBadanPertanahanNasional> ;
+                             :mulai_menjabat  "2022-12-15"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/WishnutamaKusubandio>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Wishnutama Kusubandio" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriPariwisatadanEkonomiKreatif/KepalaBadanPariwisatadanEkonomiKreatif> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2020-12-23"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/TriRismaharini>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Tri Rismaharini" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PDI-P> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriSosial> ;
+                             :mulai_menjabat  "2020-12-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/RosanRoeslani>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Rosan Roeslani" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriBadanUsahaMilikNegara> ;
+                             :mulai_menjabat  "2023-07-17"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriDalamNegeri>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Dalam Negeri" ;
+        :members    <https://ws1-2106752180.org/TitoKarnavian> .
+
+<https://ws1-2106752180.org/MenteriPerencanaanPembangunanNasional/KepalaBadanPerencanaanPembangunanNasional>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Perencanaan Pembangunan Nasional/ Kepala Badan Perencanaan Pembangunan Nasional" ;
+        :members    <https://ws1-2106752180.org/SuharsoMonoarfa> .
+
+<https://ws1-2106752180.org/WakilPresiden>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Presiden" ;
+        :members    <https://ws1-2106752180.org/Ma'rufAmin> .
+
+<https://ws1-2106752180.org/PAN>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "PAN" .
+
+<https://ws1-2106752180.org/MenteriPendidikandanKebudayaan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Pendidikan dan Kebudayaan" ;
+        :members    <https://ws1-2106752180.org/NadiemMakarim> .
+
+<https://ws1-2106752180.org/MuhadjirEffendy>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Muhadjir Effendy" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriPemudadanOlahraga> ;
+                             :mulai_menjabat    "2023-03-13"^^xsd:date ;
+                             :selesai_menjabat  "2023-04-03"^^xsd:date ;
+                             :status            <https://ws1-2106752180.org/Pelaksanatugas>
+                           ] ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriSosial> ;
+                             :mulai_menjabat    "2020-12-06"^^xsd:date ;
+                             :selesai_menjabat  "2020-12-23"^^xsd:date ;
+                             :status            <https://ws1-2106752180.org/ad-interim>
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriKoordinatorBidangPembangunanManusiadanKebudayaan> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/ZainutTauhidSa'adi>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Zainut Tauhid Sa'adi" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/PPP> ;
+                             :jabatan           <https://ws1-2106752180.org/WakilMenteriAgama> ;
+                             :mulai_menjabat    "2019-10-25"^^xsd:date ;
+                             :selesai_menjabat  "2023-07-17"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/Arminsyah>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Arminsyah" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/JaksaAgung> ;
+                             :mulai_menjabat    "2019-10-21"^^xsd:date ;
+                             :selesai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status            <https://ws1-2106752180.org/Pelaksanatugas>
+                           ] .
+
+<https://ws1-2106752180.org/PrabowoSubianto>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Prabowo Subianto" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Gerindra> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPertahanan> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/WakilMenteriKomunikasidanInformatika>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Komunikasi dan Informatika" ;
+        :members    <https://ws1-2106752180.org/NezarPatria> .
+
+<https://ws1-2106752180.org/WakilMenteriKetenagakerjaan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Ketenagakerjaan" ;
+        :members    <https://ws1-2106752180.org/AfriansyahNoor> .
+
+<https://ws1-2106752180.org/WakilMenteriKesehatan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Kesehatan" ;
+        :members    <https://ws1-2106752180.org/DanteSaksonoHarbuwono> .
+
+<https://ws1-2106752180.org/WakilMenteriAgama>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Agama" ;
+        :members    <https://ws1-2106752180.org/SaifulRahmatDasuki> , <https://ws1-2106752180.org/ZainutTauhidSa'adi> .
+
+<https://ws1-2106752180.org/WakilMenteriKeuangan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Wakil Menteri Keuangan" ;
+        :members    <https://ws1-2106752180.org/SuahasilNazara> .
+
+<https://ws1-2106752180.org/MuhammadHerindra>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Muhammad Herindra" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/WakilMenteriPertahanan> ;
+                             :mulai_menjabat  "2020-12-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/SitiNurbayaBakar>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Siti Nurbaya Bakar" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/NasDem> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriLingkunganHidupdanKehutanan> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/TerawanAgusPutranto>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Terawan Agus Putranto" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/MenteriKesehatan> ;
+                             :mulai_menjabat    "2019-10-23"^^xsd:date ;
+                             :selesai_menjabat  "2020-12-23"^^xsd:date
+                           ] .
+
+<https://ws1-2106752180.org/AirlanggaHartarto>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Airlangga Hartarto" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Golkar> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriKoordinatorBidangPerekonomian> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/MenteriPerdagangan>
+        rdf:type    vcard:Position ;
+        rdfs:label  "Menteri Perdagangan" ;
+        :members    <https://ws1-2106752180.org/ZulkifliHasan> , <https://ws1-2106752180.org/MuhammadLutfi> , <https://ws1-2106752180.org/AgusSuparmanto> .
+
+<https://ws1-2106752180.org/YaqutCholilQoumas>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Yaqut Cholil Qoumas" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PKB> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriAgama> ;
+                             :mulai_menjabat  "2020-12-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/IGustiAyuBintangDarmawati>
+        rdf:type           vcard:Person ;
+        rdfs:label         "I Gusti Ayu Bintang Darmawati" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/PDI-P> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriPemberdayaanPerempuandanPerlindunganAnak> ;
+                             :mulai_menjabat  "2019-10-23"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/YudoMargono>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Yudo Margono" ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/PanglimaTentaraNasionalIndonesia> ;
+                             :mulai_menjabat  "2022-12-19"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
+
+<https://ws1-2106752180.org/Nonpartai>
+        rdf:type    vcard:Faction ;
+        rdfs:label  "Nonpartai" .
+
+<https://ws1-2106752180.org/BudiArieSetiadi>
+        rdf:type           vcard:Person ;
+        rdfs:label         "Budi Arie Setiadi" ;
+        :occupiesPosition  [ :afiliasi          <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan           <https://ws1-2106752180.org/WakilMenteriDesa,PembangunanDaerahTertinggaldanTransmigrasi> ;
+                             :mulai_menjabat    "2019-10-25"^^xsd:date ;
+                             :selesai_menjabat  "2023-07-17"^^xsd:date
+                           ] ;
+        :occupiesPosition  [ :afiliasi        <https://ws1-2106752180.org/Nonpartai> ;
+                             :jabatan         <https://ws1-2106752180.org/MenteriKomunikasidanInformatika> ;
+                             :mulai_menjabat  "2023-07-17"^^xsd:date ;
+                             :status          <https://ws1-2106752180.org/Petahana>
+                           ] .
